@@ -292,13 +292,17 @@ p {
 .showdown-list {
     text-align: center;
     font-size: 12px;
+    margin: 0;
+    padding: 0;
     list-style-position: inside;
 }
 .bat .showdown-list .weakness {
     color: #0036ff;
+    font-weight: 200;
 }
 .sup .showdown-list .weakness {
     color: #ff0000;
+    font-weight: 200;
 }
 /*=====================================
   POINTS STYLES 
@@ -396,4 +400,50 @@ p {
     color: #fff;
     font-size: 14px;
     text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 46px;
+    }
+    .header-sec,
+    .header-sec .overlay {
+        min-height: 100px;
+    }
+    .header-sec h1 {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .header-sec h1 .subscript {
+        font-size: 20px;
+    }
+    .bat, .sup {
+        padding: 10px;
+    }
+    .bat {
+        background-color: #0b1b56;
+    }
+    .sup {
+        background-color: #ff0000;
+    }
+    .bat, .sup,
+    .bat .overlay, .sup .overlay{
+        min-height: 350px;
+    }
+    #showdown h1 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .bat .showdown-list .weakness,
+    .sup .showdown-list .weakness {
+        color: #fff;
+        font-style: italic;
+    }
+    .testi-sec {
+        background-position: center center;
+    }
+    .testi-sec,
+    .testi-sec .overlay {
+        min-height: 200px;
+    }
 }
