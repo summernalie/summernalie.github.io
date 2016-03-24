@@ -161,7 +161,6 @@ p {
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     color: #fff;
     font-size: 12px;
     font-weight: 900;
@@ -227,7 +226,6 @@ p {
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     padding: 0;
     /*-webkit-background-size: cover;
     background-size: cover;*/
@@ -256,7 +254,6 @@ p {
     background-position: center bottom;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     padding: 0;
     color: #fff;
     min-height: 500px;
@@ -299,7 +296,6 @@ p {
     background-position: 0 0;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     padding: 50px;
     min-height: 550px;
 }
@@ -313,7 +309,6 @@ p {
     background-position: 0 0;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     padding: 50px;
     min-height: 550px;
 }
@@ -411,7 +406,6 @@ p {
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     color: #fff;
 }
 .wr-issues .row:first-child .issue:nth-child(odd) span {
@@ -420,7 +414,6 @@ p {
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     color: #fff;
 }
 
@@ -430,7 +423,6 @@ p {
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     color: #fff;
 }
 .wr-issues .row:last-child .issue:nth-child(even) span{
@@ -439,7 +431,6 @@ p {
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
-    filter: grayscale(1);
     color: #fff;
 }
 
