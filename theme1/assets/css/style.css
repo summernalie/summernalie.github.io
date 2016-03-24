@@ -164,10 +164,16 @@ p {
     margin-top: 0;
     min-height: 500px;
     padding-bottom: 60px;
-    background: url(../img/bvs-head.jpg) no-repeat top center;
+    /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
+     background: url(../img/bvs-head.jpg) no-repeat top center;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), url(../img/bvs-head.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
     padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
     color: #fff;
     background-attachment: fixed;
 }
@@ -274,7 +280,7 @@ p {
     text-align: left;
 }
 #points h2 {
-    margin: 0;
+    margin: 0 0 15px 0;
     padding: 0;
     font-weight: 700;
     font-size: 30px;
@@ -288,6 +294,55 @@ p {
     padding: 40px 0;
 }
 
+
+.wr-issues .issue span {
+    display: block;
+    box-sizing: content-box;
+    padding: 10px;
+    line-height: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.wr-issues .row:first-child .issue:nth-child(even) span {
+    background: #0b1b56;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #0b1b56;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
+    color: #fff;
+}
+.wr-issues .row:first-child .issue:nth-child(odd) span {
+    background: #ff0000;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #ff0000;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
+    color: #fff;
+}
+
+.wr-issues .row:last-child .issue:nth-child(odd) span {
+    background: #0b1b56;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #0b1b56;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
+    color: #fff;
+}
+.wr-issues .row:last-child .issue:nth-child(even) span{
+    background: #ff0000;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #ff0000;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
+    color: #fff;
+}
 
 /*=====================================
   CONTACT STYLES 
