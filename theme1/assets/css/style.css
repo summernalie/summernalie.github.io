@@ -73,6 +73,15 @@ body {
     line-height: 30px;
 }
 
+#logo {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+#logo img {
+    max-width: 100%;
+}
+
 h1 {
     margin-top: 100px;
     font-weight: 700;
@@ -166,7 +175,7 @@ p {
     padding-bottom: 60px;
     /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
      background: url(../img/bvs-head.jpg) no-repeat top center;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), url(../img/bvs-head.jpg);
+    background: url(../img/silkscreen.svg), url(../img/bvs-head.jpg);
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -192,19 +201,20 @@ p {
     ===================================*/
 
 .testi-sec {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 60px;
-    background: url(../img/testi.jpg) no-repeat center center;
+    background: url(../img/final.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
     color: #fff;
+    min-height: 500px;
     background-attachment: fixed;
 }
 
 .testi-sec .overlay {
-    background: rgba(8, 134, 74, 0.80);
-    min-height: 300px;
+    background: rgba(0, 0, 0, 0.80);
+    min-height: 500px;
 }
 
 .testi-sec h3 {
@@ -214,7 +224,9 @@ p {
 }
 
 .testi-sec h4 {
-    line-height: 35px;
+    font-weight: 200;
+    margin-top: 60px;
+    line-height: 30px;
 }
 /*=====================================
   PRICING STYLES 
@@ -232,7 +244,7 @@ p {
 
 .bat {
     background: url(../img/batman.jpg) no-repeat;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), url(../img/batman.jpg);
+    background: url(../img/silkscreen.svg), url(../img/batman.jpg);
     background-position: 0 0;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -240,10 +252,13 @@ p {
     padding: 50px;
     min-height: 550px;
 }
+.bat h1 {
+    text-shadow: 2px 2px #0f2885;
+}
 
 .sup {
     background: url(../img/batman.jpg) no-repeat;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), url(../img/superman.jpg);
+    background: url(../img/silkscreen.svg), url(../img/superman.jpg);
     background-position: 0 0;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -269,7 +284,17 @@ p {
     background-color: rgba(141, 20, 42, 0.4);
 }
 
-
+.showdown-list {
+    text-align: center;
+    font-size: 12px;
+    list-style-position: inside;
+}
+.bat .showdown-list .weakness {
+    color: #0036ff;
+}
+.sup .showdown-list .weakness {
+    color: #ff0000;
+}
 /*=====================================
   POINTS STYLES 
     ===================================*/
@@ -294,11 +319,22 @@ p {
     padding: 40px 0;
 }
 
-
+#points #batfleck {
+    /*background: url(../img/BatmanReveal.gif) top right no-repeat;*/
+}
+.shudder {
+    color: #0b1b56;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: italic;
+}
+#points #wonderwoman h2 {
+    text-shadow: 2px 2px #dfd208;
+}
 .wr-issues .issue span {
     display: block;
     box-sizing: content-box;
-    padding: 10px;
+    padding: 15px 10px;
     line-height: 14px;
     font-size: 15px;
     font-weight: 400;
@@ -308,7 +344,7 @@ p {
 
 .wr-issues .row:first-child .issue:nth-child(even) span {
     background: #0b1b56;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #0b1b56;
+    background: url(../img/silkscreen.svg), #0b1b56;
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -317,7 +353,7 @@ p {
 }
 .wr-issues .row:first-child .issue:nth-child(odd) span {
     background: #ff0000;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #ff0000;
+    background: url(../img/silkscreen.svg), #ff0000;
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -327,7 +363,7 @@ p {
 
 .wr-issues .row:last-child .issue:nth-child(odd) span {
     background: #0b1b56;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #0b1b56;
+    background: url(../img/silkscreen.svg), #0b1b56;
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -336,7 +372,7 @@ p {
 }
 .wr-issues .row:last-child .issue:nth-child(even) span{
     background: #ff0000;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), #ff0000;
+    background: url(../img/silkscreen.svg), #ff0000;
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -344,14 +380,7 @@ p {
     color: #fff;
 }
 
-/*=====================================
-  CONTACT STYLES 
-    ===================================*/
 
-.contact {
-    font-size: 20px;
-    line-height: 35px;
-}
 /*=====================================
   FOOTER STYLES 
     ===================================*/
