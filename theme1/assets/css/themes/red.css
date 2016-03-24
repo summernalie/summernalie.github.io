@@ -1,4 +1,4 @@
-﻿/*====================================
+/*====================================
         Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -16,7 +16,7 @@
 
 
 #menu {
-    background-color:#B31131;
+    background-color:#000;
    
 }
 
@@ -26,7 +26,7 @@
 
 
 .header-sec .overlay{
-    background:rgba(134, 8, 13, 0.9);
+    background:rgba(0, 0, 0, 0.5);
 }
 
   /*=====================================

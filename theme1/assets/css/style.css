@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -8,167 +8,303 @@
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
    
     ========================================================  */
-
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
-body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
-    
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+    /* IE9 Compat Modes */
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat/Montserrat-Bold.otf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat/Montserrat-ExtraBold.otf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/montserrat/Montserrat-Black.otf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.otf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/montserrat/Montserrat-Light.otf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-UltraLight.otf');
+    /* IE9 Compat Modes */
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+h1 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h1 .b {
+    /*color: #2a2a2a;*/
+}
+
+h1 .s {
+    /*color: #9f0925;*/
+}
+
+h1 .subscript {
+    /*color: #d1b600;*/
+    
+    font-size: 35px;
+    font-weight: 900;
+}
 
 h2 {
-    padding-top:50px;
-    text-transform: uppercase;  
-    padding-bottom:20px;  
-    color:#000;
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #000;
 }
+
 h3 {
-    padding-top:30px;
-     padding-bottom:40px;
-     text-align:center;
-     font-weight:900;
-     text-transform:uppercase;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
 }
+
 section {
-    padding-top:30px;
-    padding-bottom:40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
+
 .just-pad {
-    padding-bottom:50px;
-    padding-top:80px;
+    padding-bottom: 50px;
+    padding-top: 80px;
 }
 
 p {
-    padding:10px 0px;
+    padding: 10px 0px;
 }
 /*=====================================
   NAVBAR STYLES 
     ===================================*/
 
 .logo-custom {
-     max-height:30px
+    max-height: 30px
 }
+
 #menu {
-    background-color:#4bb777;
-    color:#fff;
-    font-size:12px;
-    font-weight:900;
-    letter-spacing:1px;
-   
+    background-color: #D24659;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
+
 .navbar-inverse {
-border-color:transparent;
+    border-color: transparent;
 }
-.navbar-inverse .navbar-nav > li > a,.navbar-inverse .navbar-nav > li > a:hover {
-color: #FFF;
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #FFF;
 }
 
 .home-mail {
-    font-size:12px; 
-    font-weight:normal;
-    padding-left:5px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 5px;
 }
 /*=====================================
   HEADERS STYLES 
     ===================================*/
 
-
 .header-sec {
-  
-    padding-top: 10px;
+    margin-top: 0;
+    min-height: 500px;
     padding-bottom: 60px;
-    background: url(../img/head.jpg) no-repeat center center;
-padding: 0;
--webkit-background-size: cover;
-background-size: cover;
- color:#fff;
- background-attachment:fixed;
+    background: url(../img/bvs-head.jpg) no-repeat top center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
 }
-.header-sec .overlay{
-    background:rgba(8, 134, 74, 0.90);
-min-height: 500px;
+
+.header-sec .overlay {
+    min-height: 500px;
+    background: rgba(210, 70, 89, 0.30);
 }
-    .header-sec h2 {
-        color:#fff;
-        padding-top:150px;
-    }
 
-
-
-    /*=====================================
+.header-sec h1 {
+    color: #fff;
+    padding-top: 250px;
+}
+/*=====================================
   TESTIMONIALS STYLES 
     ===================================*/
 
-
 .testi-sec {
-  
     padding-top: 10px;
     padding-bottom: 60px;
     background: url(../img/testi.jpg) no-repeat center center;
-padding: 0;
--webkit-background-size: cover;
-background-size: cover;
- color:#fff;
- background-attachment:fixed;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
 
+.testi-sec .overlay {
+    background: rgba(8, 134, 74, 0.80);
+    min-height: 300px;
 }
-.testi-sec .overlay{
-    background:rgba(8, 134, 74, 0.80);
-min-height: 300px;
+
+.testi-sec h3 {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
-    .testi-sec h3 {
-        color:#fff;
-        padding-top:60px;
-        padding-bottom:30px;
-    }
 
 .testi-sec h4 {
-    line-height:35px;
+    line-height: 35px;
 }
-
-
 /*=====================================
   PRICING STYLES 
     ===================================*/
 
 .price-sec {
-  
     padding-top: 40px;
     padding-bottom: 60px;
-    color:#fff;
-   
+    color: #fff;
+}
 
+.price-sec span {
+    font-size: 90px;
 }
-    .price-sec span {
-        font-size:90px;
-    }
 
-.single-price {
-    background-color:rgba(8, 134, 74,1);
-    padding:50px;
+.bat {
+    background: url(../img/batman.jpg) no-repeat;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), url(../img/batman.jpg);
+    background-position: 0 0;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
+    padding: 50px;
+    min-height: 550px;
 }
-.multi-price {
-    background-color:#4bb777;
-    padding:50px;
+
+.sup {
+    background: url(../img/batman.jpg) no-repeat;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/silkscreen.svg), url(../img/superman.jpg);
+    background-position: 0 0;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
+    padding: 50px;
+    min-height: 550px;
 }
-  /*=====================================
+
+.bat .overlay,
+.sup .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bat .overlay {
+    background-color: rgba(11, 27, 86, 0.4);
+}
+
+.sup .overlay {
+    background-color: rgba(141, 20, 42, 0.4);
+}
+
+
+/*=====================================
+  POINTS STYLES 
+    ===================================*/
+#points h1 {
+    margin: 70px 0;
+}
+#points p {
+    text-align: left;
+}
+#points h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px #ff0000;
+}
+.point {
+    padding: 40px 0;
+}
+
+
+/*=====================================
   CONTACT STYLES 
     ===================================*/
+
 .contact {
-    font-size:20px;
-    line-height:35px;
+    font-size: 20px;
+    line-height: 35px;
 }
- /*=====================================
+/*=====================================
   FOOTER STYLES 
     ===================================*/
 
- .myfooter {
-    background-color:#4bb777;
-    padding:5px 40px 5px 40px;
-    color:#fff;
-    font-size:14px;
-    text-align:right;
+.myfooter {
+    background-color: #4bb777;
+    padding: 5px 40px 5px 40px;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
 }
