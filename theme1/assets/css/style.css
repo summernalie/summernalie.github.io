@@ -75,7 +75,7 @@ body {
 
 #logo {
     display: block;
-    width: 200px;
+    width: 300px;
     margin: auto;
 }
 #logo img {
@@ -144,7 +144,7 @@ p {
 }
 
 #menu {
-    background-color: #D24659;
+    background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
     font-size: 12px;
     font-weight: 900;
@@ -152,6 +152,7 @@ p {
 }
 
 .navbar-inverse {
+    background: #ff0000;
     border-color: transparent;
 }
 
@@ -291,7 +292,7 @@ p {
 }
 .showdown-list {
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     list-style-position: inside;
@@ -340,8 +341,14 @@ p {
 #points #wonderwoman h2 {
     text-shadow: 2px 2px #dfd208;
 }
+.wr-issues .issue {
+    display: table;
+    padding: 10px 5px 5px 5px;
+}
 .wr-issues .issue span {
-    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
     box-sizing: content-box;
     padding: 15px 10px;
     line-height: 14px;
