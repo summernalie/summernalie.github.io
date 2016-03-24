@@ -446,6 +446,9 @@ p {
         color: #fff;
         font-style: italic;
     }
+    .wr-issues .issue {
+        width: 100%;
+    }
     .testi-sec {
         background-position: center center;
     }
