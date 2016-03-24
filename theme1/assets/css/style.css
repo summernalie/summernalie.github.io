@@ -441,6 +441,10 @@ p {
         margin: 20px 0;
         font-size: 20px;
     }
+    .bat .showdown-list,
+    .sup .showdown-list {
+        font-size: 13px;
+    }
     .bat .showdown-list .weakness,
     .sup .showdown-list .weakness {
         color: #fff;
