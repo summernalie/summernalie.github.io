@@ -304,7 +304,7 @@ p {
     min-height: 550px;
 }
 .bat h1 {
-    text-shadow: 2px 2px #0f2885;
+    text-shadow: 2px 2px #1a42da;
 }
 
 .sup {
@@ -345,7 +345,7 @@ p {
     list-style-position: inside;
 }
 .bat .showdown-list .weakness {
-    color: #0036ff;
+    color: #1a42da;
     font-weight: 200;
 }
 .sup .showdown-list .weakness {
@@ -457,6 +457,16 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+    #logo.shift {
+        width: 160px;
+    }
+    #menu.shrink {
+        height: 50px;
+    }
+    #menu.shrink h1 {
+        left: 175px;
+        font-size: 20px;
+    }
     h1 {
         font-size: 46px;
     }
@@ -506,5 +516,12 @@ p {
     .testi-sec,
     .testi-sec .overlay {
         min-height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #menu.shrink h1 {
+        left: 175px;
+        font-size: 18px;
+        top: 7px;
     }
 }
