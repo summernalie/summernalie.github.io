@@ -204,9 +204,12 @@ p {
     padding-top: 30px;
     padding-bottom: 60px;
     background: url(../img/final.jpg) no-repeat center center;
+    background: url(../img/silkscreen.svg), url(../img/final.jpg);
+    background-position: center bottom;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
     padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
     color: #fff;
     min-height: 500px;
     background-attachment: fixed;
@@ -283,7 +286,9 @@ p {
 .sup .overlay {
     background-color: rgba(141, 20, 42, 0.4);
 }
-
+#showdown {
+    overflow-x: hidden;
+}
 .showdown-list {
     text-align: center;
     font-size: 12px;
