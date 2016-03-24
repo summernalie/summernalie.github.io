@@ -145,6 +145,11 @@ p {
 
 #menu {
     background-color: rgba(0, 0, 0, 0.3);
+    background: url(../img/silkscreen.svg), rgba(0, 0, 0, 0.3);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    filter: grayscale(1);
     color: #fff;
     font-size: 12px;
     font-weight: 900;
