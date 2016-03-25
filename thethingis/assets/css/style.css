@@ -383,6 +383,7 @@ p {
 #points #wonderwoman h2 {
     text-shadow: 2px 2px #dfd208;
 }
+
 .wr-issues .issue {
     display: table;
     padding: 10px 5px 5px 5px;
@@ -445,6 +446,12 @@ p {
     color: #fff;
     font-size: 14px;
     text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+    .fight img {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 767px) {
