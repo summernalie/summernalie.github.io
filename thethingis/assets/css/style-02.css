@@ -311,31 +311,53 @@ p {
 
 #characters .point-img {
     position: relative;
-    display: inline-block;
-    width: 100%;
 }
 #characters #char-superman {
-    /*position: absolute;
-    top: 0;*/
-    
+    width: 100%;
 }
 
 #characters #char-batman {
     position: absolute;
     top: 0;
-    
+    width: 100%;
 }
 #characters #char-wonderwoman {
     position: absolute;
     top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.testi-sec {
+#story {
+    position: relative;
     padding-top: 30px;
     padding-bottom: 60px;
-    background: url(../img/final.jpg) no-repeat center center;
-    background: url(../img/silkscreen.svg), url(../img/final.jpg);
-    background-position: center bottom;
+    background: url(../img/hope.jpg) no-repeat center center;
+    background: url(../img/silkscreen.svg), url(../img/hope.jpg);
+    background-position: center center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+}
+#story .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.70);
+}
+#story p {
+    position: relative;
+    z-index: 99;
+    font-size: 16px;
+    color: #000;
+}
+#summary {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: url(../img/review-final.jpg) no-repeat center top;
+    background: url(../img/silkscreen.svg), url(../img/review-final.jpg);
+    background-position: center top;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
     padding: 0;
@@ -344,18 +366,18 @@ p {
     background-attachment: fixed;
 }
 
-.testi-sec .overlay {
+#summary .overlay {
     background: rgba(0, 0, 0, 0.80);
     min-height: 500px;
 }
 
-.testi-sec h3 {
+#summary h3 {
     color: #fff;
     padding-top: 60px;
     padding-bottom: 30px;
 }
 
-.testi-sec h4 {
+#summary h4 {
     font-weight: 200;
     margin-top: 60px;
     line-height: 30px;
@@ -399,64 +421,13 @@ p {
     text-shadow: 2px 2px #dfd208;
 }
 
-.wr-issues .issue {
-    display: table;
-    padding: 10px 5px 5px 5px;
-}
-.wr-issues .issue span {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    box-sizing: content-box;
-    padding: 15px 10px;
-    line-height: 14px;
-    font-size: 15px;
-    font-weight: 400;
-    height: 30px;
-    margin: 10px 0;
-}
-
-.wr-issues .row:first-child .issue:nth-child(even) span {
-    background: #0b1b56;
-    background: url(../img/silkscreen.svg), #0b1b56;
-    background-position: top center;
-    background-size: 4px 4px, 100%;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-}
-.wr-issues .row:first-child .issue:nth-child(odd) span {
-    background: #ff0000;
-    background: url(../img/silkscreen.svg), #ff0000;
-    background-position: top center;
-    background-size: 4px 4px, 100%;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-}
-
-.wr-issues .row:last-child .issue:nth-child(odd) span {
-    background: #0b1b56;
-    background: url(../img/silkscreen.svg), #0b1b56;
-    background-position: top center;
-    background-size: 4px 4px, 100%;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-}
-.wr-issues .row:last-child .issue:nth-child(even) span{
-    background: #ff0000;
-    background: url(../img/silkscreen.svg), #ff0000;
-    background-position: top center;
-    background-size: 4px 4px, 100%;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-}
-
 
 /*=====================================
   FOOTER STYLES 
     ===================================*/
 
 .myfooter {
-    background-color: #4bb777;
+    background-color: #000;
     padding: 5px 40px 5px 40px;
     color: #fff;
     font-size: 14px;
