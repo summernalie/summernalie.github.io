@@ -481,42 +481,7 @@ p {
     .header-sec h1 .subscript {
         font-size: 20px;
     }
-    .bat, .sup {
-        padding: 10px;
-    }
-    .bat {
-        background-color: #0b1b56;
-    }
-    .sup {
-        background-color: #ff0000;
-    }
-    .bat, .sup,
-    .bat .overlay, .sup .overlay{
-        min-height: 350px;
-    }
-    #showdown h1 {
-        margin: 20px 0;
-        font-size: 20px;
-    }
-    .bat .showdown-list,
-    .sup .showdown-list {
-        font-size: 13px;
-    }
-    .bat .showdown-list .weakness,
-    .sup .showdown-list .weakness {
-        color: #fff;
-        font-style: italic;
-    }
-    .wr-issues .issue {
-        width: 100%;
-    }
-    .testi-sec {
-        background-position: center center;
-    }
-    .testi-sec,
-    .testi-sec .overlay {
-        min-height: 200px;
-    }
+   
 }
 @media screen and (max-width: 500px) {
     #menu.shrink h1 {
