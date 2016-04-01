@@ -299,9 +299,7 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-    .fight img {
-        width: 80%;
-    }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -315,19 +313,23 @@ body {
         left: 175px;
         font-size: 20px;
     }
-    h1 {
-        font-size: 46px;
+    .landing {
+        padding: 0;
+        margin-top: 60px;
     }
-    .header-sec,
-    .header-sec .overlay {
-        min-height: 100px;
+    .portion {
+        height: auto;
+        padding: 20px;
     }
-    .header-sec h1 {
+    .portion h2 {
         font-size: 30px;
-        padding-top: 0px;
+        padding-top: 10px;
+        
     }
-    .header-sec h1 .subscript {
-        font-size: 20px;
+    .portion h3 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        
     }
    
 }
