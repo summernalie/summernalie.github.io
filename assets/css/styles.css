@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    position: relative;
+}
+header {
+    background: #fff;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #000;
+}
+.logo {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 100;
+}
+#work, #ent {
+    position: absolute;
+    min-height: 100vh;
+}
+.halfsec {
+    position: absolute;
+    width: 50%;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out; 
+    bottom: 0;
+    top: 0;
+}
+.halfsec > a {
+    display: block;
+     position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+#work > a {
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease; 
+}
+#work {
+    left: 0;
+}
+#work > a {
+    background: #111;
+}
+#ent {
+    right: 0;
+}
+#ent > a {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    background: #333;
+}
+#work:hover a {
+    margin-left: 200px;
+}
+#ent:hover a{
+    margin-right: 200px;
+}
+
+.halfsec .inner {
+    background: #aa0000;
+    color: #000;
+    width: 500px;
+    position: absolute;
+}
+
+.inner h1 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 100;
+    font-size: 25px;
+    color: #fff;
+}
+.inner h2 {
+    opacity: 0;
+    margin: 0;
+    height: 0;
+    padding: 0;
+    background: #770000;
+    font-weight: 100;
+    color: #fff;
+    font-size: 16px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; 
+}
+#work .inner {
+    top: 50%;
+    right: 0;
+    text-align: left;
+}
+#ent .inner {   
+    top: 50%;
+    margin-top: -200px;
+    left: 0;
+}
+.halfsec:hover .inner h2 {
+    opacity: 1;
+    height: auto;
+    padding: 5px 20px;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+@media screen 
