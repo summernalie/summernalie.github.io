@@ -1,5 +1,20 @@
+@font-face {
+    font-family: 'Coves';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Coves-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Coves';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Coves-Light.ttf');
+    /* IE9 Compat Modes */
+}
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Coves', 'Segoe UI', Arial, sans-serif;
     min-height: 100vh;
     position: relative;
 }
@@ -58,13 +73,19 @@ header {
 
 #work {
     left: 0;
+    background: url(../img/tech2.jpg);
+    background-position: bottom;
+    background-repeat: repeat;
 }
-
 #work > a {
-    background: #111;
+    background: url(../img/tech.jpg), url(../img/tech-repeat.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x, repeat;
 }
 
 #ent {
+    background: url(../img/silkscreen.svg) repeat;
+    background-size: 4px;
     right: 0;
 }
 
@@ -72,15 +93,33 @@ header {
     position: absolute;
     width: 100%;
     right: 0;
-    background: #333;
+    /*background: #333;*/
+    background: url(../img/collage.jpg);
+    background-size: contain;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#work > .overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+#ent > .overlay {
+    background: #770000;
+    opacity: 0.9;
+}
+#ent a .overlay {background: rgba(0, 0, 0, 0.7);}
+#work a .overlay {background: rgba(255, 255, 255, 0.6);}
 
 #work:hover a {
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 #ent:hover a {
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .halfsec .inner {
@@ -93,8 +132,8 @@ header {
 .inner h1 {
     padding: 20px;
     margin: 0;
-    font-weight: 100;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 35px;
     color: #fff;
 }
 
