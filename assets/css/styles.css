@@ -125,7 +125,7 @@ header {
 .halfsec .inner {
     background: #aa0000;
     color: #000;
-    width: 500px;
+    width: 70%;
     position: absolute;
 }
 
@@ -180,5 +180,28 @@ a:hover {
         top: 50%;
         margin-top: -50px;
         left: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .halfsec:hover a {
+        margin: 0 !important;
+    }
+    #ent .inner {
+        width: 100%;
+    }
+    #work .inner {
+        width: 100%;
+        text-align: right;
+    }
+    .inner h1 {
+        font-size: 26px;
+        padding: 10px;
+    }
+    .inner h2 {
+        font-size: 14px;
+        line-height: 13px;
+        opacity: 1;
+        height: auto;
+        padding: 10px 20px !important;
     }
 }
