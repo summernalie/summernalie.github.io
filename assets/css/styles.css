@@ -65,6 +65,7 @@ header {
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+.halfsec:hover > a,
 .halfsec > a:hover {
     color: #fff;
 }
