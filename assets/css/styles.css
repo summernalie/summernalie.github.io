@@ -65,6 +65,9 @@ header {
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+.halfsec > a:hover {
+    color: #fff;
+}
 
 #work > a {
     -webkit-transition: all 1.5s ease;
