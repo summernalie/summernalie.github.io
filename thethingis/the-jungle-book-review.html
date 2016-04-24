@@ -37,24 +37,26 @@
 
 
     <div class="portion">
-        <section class="" id="intro">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <h1 data-scroll-reveal="enter from the top after 0.2s">
+        <div class="inner">
+            <section class="" id="intro">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <h1 data-scroll-reveal="enter from the top after 0.2s">
                    The Jungle Book is an Adventure for the Eyes
                         </h1>
+                        </div>
                     </div>
+
+
+
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <p>The one thing that you must know, when going in to see Disney's latest movie, The Jungle Book, is that 95% of what you see is entirely computer generated. The reason you should know this going in, is because 5 minutes into the film, you're going to completely forget that fact. And that is precisely what makes this a movie worth watching.</p>
+                    </div>
+
                 </div>
-
-
-
-                <div class="col-sm-offset-2 col-sm-8">
-                    <p>The one thing that you must know, when going in to see Disney's latest movie, The Jungle Book, is that 95% of what you see is entirely computer generated. The reason you should know this going in, is because 5 minutes into the film, you're going to completely forget that fact. And that is precisely what makes this a movie worth watching.</p>
-                </div>
-
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
 
 
@@ -95,25 +97,42 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
+        <div id="animals">
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>As I said at the beginning of this review, quite early on in the movie viewing process, it becomes easy to forget that we aren't watching real living, breathing wildlife. It becomes easy to imagine that the child actor is really caressing the course fur of a real trained Wolf or Jaguar, or is riding on the belly of a real trained Bear. But he isn't. In reality, he's interacting with a static figure covered in blue felt on the end of a stick. The fact that the movie makes the wildlife and interactions so believable is truly a credit to the Special Effects department at Disney.
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="assets/img/bear.jpg" class="img-responsive" />
+                    </div>
+                    
                 </div>
-                <div class="col-sm-6">
-                    <p>As I said at the beginning of this review, quite early on in the movie viewing process, it becomes easy to forget that we aren't watching real living, breathing wildlife. It becomes easy to imagine that the child actor is really caressing the course fur of a real trained Wolf or Jaguar, or is riding on the belly of a real trained Bear. But he isn't. In reality, he's interacting with a static figure covered in blue felt on the end of a stick. The fact that the movie makes the wildlife and interactions so believable is truly a credit to the Special Effects department at Disney.
-                    </p>
+                <div class="row animalrow">
+                    <div class="col-sm-4">
+                        <img src="assets/img/raksha.jpg" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="assets/img/bageera.png" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="assets/img/loui.jpg" class="img-responsive" />
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
 
 
     <section id="acting" class="text-center">
         <div class="continer">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
+                <div class="col-sm-5">
+                    <img src="assets/img/mowgli.jpg" class="img-responsive" />
+                </div>
+                <div class="col-sm-7">
                     <h2>Acting</h2>
                     <p>While the CGI Animators deserve high praise for the authenticity of the world that is presented in the movie, the burden of driving the emotional connection we feel to it, is borne almost entirely by the young star of the movie, Neel Sethi. He makes the difference of it not being merely a visually stunning and believable environment, but one that we get emotionally invested in, with characters that we care about. It certainly is an impressive feat when you consider that this is his first feature film and he was a mere 10 years old during filming. His acting is mostly convincing, and never exaggerated, and any moments where it is evident that he is acting are easily forgiven when the camera catches his deep engaging gaze. Also, it doesn't hurt that he is incredibly adorable and feels like the mischievous little brother we all wish we had.</p>
 
@@ -126,7 +145,7 @@
         </p>
     </section>
 
-    <section>
+    <section id="tension">
         <h2>Tension</h2>
         <p>
             There's a great tension in the deeper story of The Jungle Book, especially in terms of the character motivations. There are compelling themes of family and friendship, but I found a more complex theme behind Shere Khan's motivations. There is no doubt that he is the essential antagonist of the story, and painted on the surface as the typical villain. But upon reflection, one has to wonder whether his qualms about Mowgli were not unfounded. His prior experience with man has been as that of an invader and a disruptor of the natural way of the jungle. Man brings with him the "red flower", fire that destroys everything it touches. In fact, all the animals of the jungle fear it for this very reason, and so rightly they should. This is a tension we see in our own world, where nature has suffered much at the hands of human-beings. So Shere Khan is almost justified in his motivations, if not his actions. In the end, even while Mowgli tries to stand up to the tiger's tyranny using fire, he ends up causing destruction despite his best efforts. It raises an interesting question as to whether man can ever truly co-exist peacefully with Nature, without inadvertently causing its ruin.
@@ -135,7 +154,7 @@
     </section>
 
 
-    <section>
+    <section id="final">
         <h2>Conclusion</h2>
         <p>
             The Jungle Book is a thrilling adventure film, which captivates its audience with stunning environments, amazing renderings of nature and compelling characters. The story is nothing new and won't deliver much in terms of surprises and plot twists, but The Thing is, the movie still manages to engage its viewers right to the end based on the strength of its incredible visual effects and effective performances.
@@ -200,9 +219,11 @@
 
             if (scrollPos < 600) {
                 // parallaxing
-                var $movebg = $(window).scrollTop() * -0.5;
+                var $movebg = $(window).scrollTop() * 0.1;
+                var $movebg2 = $(window).scrollTop() * 0.2;
                 $('.portion').css('background-positionY', ($movebg) + 'px');
 
+                $('.portion .inner').css('background-positionY', ($movebg2) + 'px');
 
 
 

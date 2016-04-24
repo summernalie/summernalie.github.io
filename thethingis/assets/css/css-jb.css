@@ -8,6 +8,8 @@
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
    
     ========================================================  */
+
+
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
@@ -19,7 +21,6 @@
     src: url('../fonts/comicneue/ComicNeue-Angular-Regular.ttf');
     /* IE9 Compat Modes */
 }
-
 @font-face {
     font-family: 'Comic';
     font-style: normal;
@@ -34,7 +35,6 @@
     src: url('../fonts/comicneue/ComicNeue-Angular-Light.ttf');
     /* IE9 Compat Modes */
 }
-
 @font-face {
     font-family: 'Comic';
     font-style: italic;
@@ -42,7 +42,6 @@
     src: url('../fonts/comicneue/ComicNeue-Angular-Regular-Oblique.ttf');
     /* IE9 Compat Modes */
 }
-
 @font-face {
     font-family: 'Comic';
     font-style: italic;
@@ -57,7 +56,6 @@
     src: url('../fonts/comicneue/ComicNeue-Angular-Light-Oblique.ttf');
     /* IE9 Compat Modes */
 }
-
 @font-face {
     font-family: 'Jungle Juice';
     font-style: normal;
@@ -65,18 +63,14 @@
     src: url('../fonts/Jungle-Juice.TTF');
     /* IE9 Compat Modes */
 }
-
-
 body {
     background: #000;
     color: #fff;
     font-family: 'Segoe UI', 'Open Sans', sans-serif;
     /*line-height: 30px;*/
-   /* background-image:  url("../img/jungle-book.jpg");
+    /* background-image:  url("../img/jungle-book.jpg");
     background-size: contain;*/
 }
-
-
 h1 {
     font-family: 'Jungle Juice', 'Open Sans', sans-serif;
     margin-top: 100px;
@@ -87,7 +81,6 @@ h1 {
     letter-spacing: -1px;
     /*text-shadow: 2px 2px #ff0000;*/
 }
-
 h2 {
     text-transform: uppercase;
     padding-bottom: 20px;
@@ -95,7 +88,6 @@ h2 {
     font-size: 60px;
     font-family: 'Jungle Juice', 'Open Sans', sans-serif;
 }
-
 h3 {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -103,42 +95,42 @@ h3 {
     font-weight: 900;
     text-transform: uppercase;
 }
-
 section {
     padding-top: 30px;
     padding-bottom: 40px;
 }
-
 .just-pad {
     padding-bottom: 50px;
     padding-top: 80px;
 }
-
 p {
     font-size: 16px;
     letter-spacing: -0.7px;
     padding: 10px 0px;
 }
-
 #menu {
     background: #000;
 }
-
 .portion {
+    position: relative;
     margin-top: 90px;
-  background-image:  url("../img/jungle-book.jpg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+    background: url("../img/jb-left.jpg");
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
-  text-align: center;
+    text-align: center;
 }
-
-
-
-
+.portion > .inner {
+    
+    background: url("../img/jb-right.png");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
 #intro {
-   /* position: relative;*/
+    /* position: relative;*/
     /*min-height: 100vh;*/
     padding-bottom: 100px;
 }
@@ -151,12 +143,10 @@ p {
     font-size: 20px;
     color: #0D6B02;
     margin-bottom: 100px;
-    
 }
-
 #story {
     padding: 0;
-    background:  url("../img/jb-bg.jpg");
+    background: url("../img/jb-bg.jpg");
     background-attachment: fixed;
     color: #fff;
 }
@@ -171,9 +161,6 @@ p {
     margin: 20px 0;
     font-size: 18px;
 }
-
-
-
 #effects {
     padding: 0;
     color: #fff;
@@ -183,8 +170,7 @@ p {
     color: #DCC209;
 }
 #effects .inner {
-    
-    background:  url("../img/bg.jpg");
+    background: url("../img/bg.jpg");
 }
 #effects .inner .overlay {
     padding: 50px 0;
@@ -194,6 +180,30 @@ p {
     line-height: 26px;
 }
 
+#animals {
+    background: #FBF2A3;
+    /*color: #0D6B02;*/
+    color: #000;
+    
+}
+#animals .col-sm-6 {
+    padding: 0;
+}
+#animals p {
+    text-align: left;
+    margin: 50px 20px;
+    font-size: 18px;
+}
+.animalrow > div {
+    padding: 0;
+}
+#tension {
+    
+}
+
+#final {
+    
+}
 
 
 .header-sec {
@@ -206,27 +216,18 @@ p {
     color: #fff;
     background-attachment: fixed;
 }
-
 .header-sec .overlay {
     min-height: 500px;
     background: rgba(255, 255, 255, 0.30);
 }
-
 .header-sec h1 {
     color: #fff;
     padding-top: 250px;
 }
-
-
-
 .italic {
     font-style: italic;
 }
-
-
-
 .aside {
-   
     background-attachment: fixed;
     background-size: 100%;
     color: #000;
@@ -246,9 +247,6 @@ p {
     margin-right: 10px;
 }
 
-
-
-
 /*=====================================
   FOOTER STYLES 
     ===================================*/
@@ -260,11 +258,7 @@ p {
     font-size: 14px;
     text-align: right;
 }
-
-@media screen and (min-width: 992px) {
-   
-}
-
+@media screen and (min-width: 992px) {}
 @media screen and (max-width: 767px) {
     #logo.shift {
         width: 160px;
@@ -290,5 +284,4 @@ p {
     .header-sec h1 .subscript {
         font-size: 20px;
     }
-   
 }
