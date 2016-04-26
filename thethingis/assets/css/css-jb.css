@@ -182,18 +182,24 @@ p {
 }
 
 #animals {
-    background: #fff;
-    /*color: #0D6B02;*/
+    background: url(../img/river.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: #000;
     
+}
+#animals .overlay {
+    background: rgba(251, 242, 163, 0.8);
 }
 #animals .col-sm-6 {
     padding: 0;
 }
 #animals p {
-    text-align: left;
+    text-align: center;
     margin: 50px 20px;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
 }
 .animalrow > div {
     padding: 0;
@@ -201,14 +207,14 @@ p {
 
 #acting {
     padding: 0;
-    
+    background: rgba(13, 107, 2, 0.8);
     background-size: cover;
 }
 #acting h2 {
     color: #fff;
 }
 .mowgli {
-    background: rgba(13, 107, 2, 0.8);
+    
     padding: 0 10px 0 0;
     overflow: hidden;
 }
@@ -224,16 +230,48 @@ p {
 .mowgli p {
     padding: 20px;
 }
-
-
-#tension {
+.cast img {
     
+}
+.cast p {
+    padding-top: 50px;
+    padding: 20px;
+}
+#tension {
+    padding: 0;
+    background: url(../img/jb-bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+#tension .overlay {
+    background:rgba(220, 194, 9, 0.85);
+    padding-bottom: 20px;
+}
+#tension h2 {
+    text-align: center;
+}
+#tension p {
+    font-weight: 500;
+    font-size: 15px;
+    margin: 40px 0;
 }
 
 #final {
-    
+    min-height: 500px;
+   padding: 0;
+    background: url(../img/waterfall.png) bottom no-repeat;
+    background-size: cover;  
+    font-weight: 500;
+    color: #000;
 }
-
+#final h2 {
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+#final p {
+    font-size: 18px;
+}
 
 .header-sec {
     margin-top: 0;
