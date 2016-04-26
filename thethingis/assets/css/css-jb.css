@@ -105,7 +105,7 @@ section {
 }
 p {
     font-size: 16px;
-    letter-spacing: -0.7px;
+    letter-spacing: -0.25px;
     padding: 10px 0px;
 }
 #menu {
@@ -123,10 +123,11 @@ p {
 }
 .portion > .inner {
     
+    
     background: url("../img/jb-right.png");
-    background-position: right center;
+    background-position: right bottom;
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #intro {
@@ -181,7 +182,7 @@ p {
 }
 
 #animals {
-    background: #FBF2A3;
+    background: #fff;
     /*color: #0D6B02;*/
     color: #000;
     
@@ -197,6 +198,34 @@ p {
 .animalrow > div {
     padding: 0;
 }
+
+#acting {
+    padding: 0;
+    
+    background-size: cover;
+}
+#acting h2 {
+    color: #fff;
+}
+.mowgli {
+    background: rgba(13, 107, 2, 0.8);
+    padding: 0 10px 0 0;
+    overflow: hidden;
+}
+.mowgli h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+.mowgli img {
+    float: left;
+    max-width: 50%;
+    margin-right: 30px;
+}
+.mowgli p {
+    padding: 20px;
+}
+
+
 #tension {
     
 }
