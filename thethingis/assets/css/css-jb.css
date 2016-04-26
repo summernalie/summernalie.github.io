@@ -118,7 +118,7 @@ p {
 .portion {
     position: relative;
     margin-top: 90px;
-    background: url("../img/jb-left.jpg");
+    background: url("../img/jb/jb-left.jpg");
     background-position: left center;
     background-attachment: fixed;
     background-size: cover;
@@ -128,7 +128,7 @@ p {
 .portion > .inner {
     
     
-    background: url("../img/jb-right.png");
+    background: url("../img/jb/jb-right.png");
     background-position: right bottom;
     background-attachment: fixed;
     background-size: cover;
@@ -152,7 +152,7 @@ p {
 }
 #story {
     padding: 0;
-    background: url("../img/jb-bg.jpg");
+    background: url("../img/jb/jb-bg.jpg");
     background-attachment: fixed;
     color: #fff;
 }
@@ -176,7 +176,7 @@ p {
     color: #DCC209;
 }
 #effects .inner {
-    background: url("../img/bg.jpg");
+    background: url("../img/jb/bg.jpg");
 }
 #effects .inner .overlay {
     padding: 50px 0;
@@ -187,7 +187,7 @@ p {
 }
 
 #animals {
-    background: url(../img/river.jpg) no-repeat;
+    background: url(../img/jb/river.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: #000;
@@ -244,7 +244,7 @@ p {
 }
 #tension {
     padding: 0;
-    background: url(../img/jb-bg.jpg) no-repeat;
+    background: url(../img/jb/jb-bg.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: #000;
@@ -265,7 +265,7 @@ p {
 #final {
     min-height: 500px;
    padding: 0;
-    background: url(../img/waterfall.png) bottom no-repeat;
+    background: url(../img/jb/waterfall.jpg) bottom no-repeat;
     background-size: cover;  
     font-weight: 500;
     color: #000;
