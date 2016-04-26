@@ -111,6 +111,10 @@ p {
 #menu {
     background: #000;
 }
+#menu h1 {
+    font-size: 36px;
+    font-weight: 100;
+}
 .portion {
     position: relative;
     margin-top: 90px;
@@ -138,6 +142,7 @@ p {
 #intro h1 {
     padding: 80px 0 100px 0;
     font-size: 90px;
+    text-shadow: 1px 1px 3px #FBF2A3;
 }
 #intro p {
     font-weight: 400;
@@ -325,7 +330,21 @@ p {
     font-size: 14px;
     text-align: right;
 }
-@media screen and (min-width: 992px) {}
+@media screen and (max-width: 992px) {
+    #intro h1 {
+        font-size: 70px;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #intro p {
+        font-size: 16px;
+        padding: 20px;
+        font-weight: 500;
+        background: rgba(251, 242, 163, 0.7);
+    }
+}
 @media screen and (max-width: 767px) {
     #logo.shift {
         width: 160px;
@@ -340,14 +359,33 @@ p {
     h1 {
         font-size: 46px;
     }
+    #intro h1 {
+        font-size: 40px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .animalrow img {
+        width: 100%;
+        
+    }
+    #acting img {
+        width: 100%;
+         float: none;
+    }
+    .mowgli img {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     .header-sec,
     .header-sec .overlay {
         min-height: 100px;
     }
-    .header-sec h1 {
-        font-size: 30px;
-        padding-top: 0px;
-    }
+    
     .header-sec h1 .subscript {
         font-size: 20px;
     }
