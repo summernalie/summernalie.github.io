@@ -2153,7 +2153,7 @@ img {
 
 @media only screen and (max-height: 46.875em) {
     .home-project-shape {
-        padding-top: 15%;
+        padding-top: 10%;
     }
     .home-project-shape .block-title {
         font-size: 36px;
