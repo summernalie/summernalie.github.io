@@ -442,12 +442,12 @@
     font-weight: inherit
 }
 
-.block--experience-fueled {
+.block-more {
     padding-bottom: 14em;
     position: relative
 }
 
-.block--experience-fueled .block__clipper {
+.block-more .block__clipper {
     clip: rect(auto, auto, auto, auto);
     height: 100%;
     left: 0;
@@ -456,7 +456,7 @@
     width: 100%
 }
 
-.block--experience-fueled .block__bg {
+.block-more .block__bg {
     background: url(../images/bg/home--breakdown.jpg);
     background-size: cover;
     bottom: -200px;
@@ -466,40 +466,40 @@
     width: 100%
 }
 
-.block--experience-fueled .wrap {
+.block-more .wrap {
     position: relative
 }
 
-.block--experience-fueled .btn--rotate {
+.block-more .btn--rotate {
     margin: 4em auto 0
 }
 
-.block--experience-fueled .btn--rotate .btn__border {
+.block-more .btn--rotate .btn__border {
     background: rgba(0, 0, 0, 0.3);
     border-width: 5px
 }
 
-.block--experience-fueled .btn--rotate:hover .btn__border {
+.block-more .btn--rotate:hover .btn__border {
     background: #ae0000
 }
 
-.block--experience-fueled .btn--rotate:active .btn__border,
-.block--experience-fueled .btn--rotate:focus .btn__border {
+.block-more .btn--rotate:active .btn__border,
+.block-more .btn--rotate:focus .btn__border {
     background: #525252
 }
 
 @media only screen and (min-width: 50.0625em) {
-    .block--experience-fueled .block-title {
+    .block-more .block-title {
         font-size: 90px;
         font-size: 4.5rem
     }
 }
 
 @media only screen and (max-width: 47.9375em) {
-    .block--experience-fueled .block__clipper {
+    .block-more .block__clipper {
         clip: auto
     }
-    .block--experience-fueled .block__bg {
+    .block-more .block__bg {
         bottom: 0;
         position: absolute;
         -webkit-transform: none !important;
@@ -508,19 +508,19 @@
     }
 }
 
-.block--experience-fueled .block__copy {
+.block-more .block__copy {
     margin: 0 0 1em;
     max-width: 100%
 }
 
 @media only screen and (max-width: 40em) {
-    .block--experience-fueled {
+    .block-more {
         padding-bottom: 12em
     }
 }
 
 @media only screen and (max-width: 22.5em) {
-    .block--experience-fueled {
+    .block-more {
         padding-bottom: 14em
     }
 }
