@@ -2475,8 +2475,8 @@ img {
 }
 
 .home-project-inner-four {
-    background: #202326;
-    background: radial-gradient(60vw at -5% 70%, #ffa52c 0%, rgba(255, 165, 44, 0) 100%), radial-gradient(60vw at 105% 30%, #2cc5c5 0%, rgba(44, 197, 197, 0) 100%), radial-gradient(60vw at 70% 105%, #34c388 0%, rgba(52, 195, 136, 0) 100%), #202326
+    background: #739D00;
+    background: radial-gradient(60vw at -5% 70%, #739D00 0%, rgba(255, 165, 44, 0) 100%), radial-gradient(60vw at 105% 30%, #9240D5 0%, rgba(44, 197, 197, 0) 100%), radial-gradient(60vw at 70% 105%, #FFCB00 0%, rgba(52, 195, 136, 0) 100%), #3F046F
 }
 
 .home-project-inner--keyme {
@@ -3772,11 +3772,11 @@ img {
 .bio-contact {
     font-weight: 300;
     font-size: 20px;
-    color: #C6F500;
+    color: #739D00;
 }
 .page-homepage .page-homepage-scroll:hover svg,
 .page-homepage .page-homepage-scroll.page-homepage-scroll--animate svg {
-    fill: #C6F500
+    fill: #739D00
 }
 
 .sub-title {
