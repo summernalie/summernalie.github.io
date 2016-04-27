@@ -2153,7 +2153,7 @@ img {
 
 @media only screen and (max-height: 46.875em) {
     .home-project-shape {
-        padding-top: 100px
+        padding-top: 15%;
     }
     .home-project-shape .block-title {
         font-size: 36px;
@@ -3788,6 +3788,9 @@ img {
 }
 #education .sub-title {
     color: #739D00;
+}
+.edu-icon svg path {
+    fill: #739D00;
 }
 #education p {
     font-size: 20px;
