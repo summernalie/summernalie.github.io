@@ -243,6 +243,29 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+.portion3 {
+    display: block;
+    margin-top: 0;
+    padding-bottom: 60px;
+    /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
+     background: url(../img/jb/the-jungle-book.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/jb/the-jungle-book.jpg);
+    background-position: center center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+
+.portion3 h2 {
+    color: #DCC209;
+    text-shadow: 3px 3px 5px #084c00;
+}
+
 .portion {
     position: relative;
     height: 400px;
