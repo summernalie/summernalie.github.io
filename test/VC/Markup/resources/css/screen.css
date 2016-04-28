@@ -2223,13 +2223,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
         max-width: none
     }
     .home-project-shape .shape-responsive {
-        width: 15em
+        width: 18em
     }
 }
 
 @media only screen and (max-width: 31.25em) {
     .home-project-shape .shape-responsive {
-        width: 12.5em
+        width: 15.5em
+    }
+    .home-project-shape .shape-responsive h4 {
+        font-size: 18px;
+    }
+    .shape-responsive__inner {
+        height: 13em;
     }
 }
 
@@ -3754,6 +3760,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
+    padding: 30px 0;
 }
 
 
@@ -3781,7 +3788,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     /*height: 100px;*/
 }
 .page-homepage .content-bio .wrap {
-    position: relative
+    position: relative;
+    padding-bottom: 50px;
 }
 
 .page-homepage .block {
