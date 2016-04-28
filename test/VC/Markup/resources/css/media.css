@@ -436,6 +436,10 @@
         text-align: center;
         width: 100%
     }
+    .block--what-we-do .media__copy__inner .skill-list li {
+        text-align: left;
+        font-size: 15px;
+    }
     
 }
 

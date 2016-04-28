@@ -1794,6 +1794,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 .block-more .wrap {
     padding: 50px 0 80px 0;
 }
+.block-more .block__copy {
+    padding: 0 1em;
+}
 #scroll-up {
     margin--top: 40px;
 }
@@ -2221,6 +2224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     font-size: 20px;
     text-transform: none;
     list-style: none;
+    padding: 0;
 }
 .point-list li {
     margin-bottom: 13px;
@@ -2443,7 +2447,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     }
     .home-project-shape {
         left: auto;
-        position: relative;
+        position: relative !important;
         top: auto;
         -webkit-transform: none;
         -ms-transform: none;
