@@ -2153,6 +2153,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     top: 50%;
     width: 83.81963%;
     margin-top: -30px;
+    z-index: 9999;
 }
 
 .shape-reveal video {
