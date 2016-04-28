@@ -692,7 +692,7 @@ a:hover {
 
 a:active,
 a:focus {
-    color: #ae0000;
+    color: #739D00;
     outline: none
 }
 
@@ -701,7 +701,7 @@ a.secondary-link {
 }
 
 a.secondary-link:hover {
-    color: #ae0000
+    color: #739D00
 }
 
 a.secondary-link:active,
@@ -712,7 +712,7 @@ a.secondary-link:focus {
 a.about-text-link:hover,
 .block--collective p a:hover,
 .block--clients .wrap>div p a:hover {
-    color: #ae0000
+    color: #739D00
 }
 
 a.about-text-link:active,
@@ -731,7 +731,7 @@ a.about-text-link:focus,
 }
 
 .btn {
-    background: #ae0000;
+    background: #739D00;
     border: none;
     box-shadow: 0px -2px 0 rgba(0, 0, 0, 0.25) inset;
     color: #f5f5f1;
@@ -775,7 +775,7 @@ a.about-text-link:focus,
 
 .btn--rotate {
     background: none;
-    border: 0px solid #ae0000;
+    border: 0px solid #739D00;
     box-shadow: none;
     display: block;
     font-size: 22px;
@@ -806,7 +806,7 @@ a.about-text-link:focus,
     right: 0;
     top: 0;
     width: 100%;
-    border-color: #ae0000;
+    border-color: #739D00;
     border-style: solid;
     border-width: 3px;
     -webkit-transform: rotate(45deg);
@@ -816,7 +816,7 @@ a.about-text-link:focus,
 }
 
 .btn--rotate:hover .btn__border {
-    background: #ae0000
+    background: #739D00
 }
 
 .btn--rotate:active .btn__border,
@@ -929,7 +929,7 @@ button {
 
 .required--error,
 .form--contact .required--error {
-    border-color: #ae0000
+    border-color: #739D00
 }
 
 .form__field--checkbox {
@@ -986,7 +986,7 @@ button {
 }
 
 .form__field--checkbox__label:after {
-    background: #ae0000;
+    background: #739D00;
     height: 0.5rem;
     left: 0.55rem;
     opacity: 0;
@@ -1038,8 +1038,8 @@ button:focus {
 }
 
 .form__error {
-    background: #ae0000;
-    border: 4px solid #ae0000;
+    background: #739D00;
+    border: 4px solid #739D00;
     bottom: 0;
     color: #f5f5f1;
     left: 1em;
@@ -1050,42 +1050,42 @@ button:focus {
 }
 
 .form__error+.form__field {
-    border-color: #ae0000
+    border-color: #739D00
 }
 
 ::-moz-selection {
-    background: #ae0000;
+    background: #739D00;
     color: #f5f5f1;
     text-shadow: none
 }
 
 .block--red::-moz-selection {
     background: #f5f5f1;
-    color: #ae0000;
+    color: #739D00;
     text-shadow: none
 }
 
 ::-moz-selection {
-    background: #ae0000;
+    background: #739D00;
     color: #f5f5f1;
     text-shadow: none
 }
 
 ::selection {
-    background: #ae0000;
+    background: #739D00;
     color: #f5f5f1;
     text-shadow: none
 }
 
 .block--red::-moz-selection {
     background: #f5f5f1;
-    color: #ae0000;
+    color: #739D00;
     text-shadow: none
 }
 
 .block--red::selection {
     background: #f5f5f1;
-    color: #ae0000;
+    color: #739D00;
     text-shadow: none
 }
 
@@ -1567,15 +1567,19 @@ img {
     background: #f5f5f1;
     color: #161616
 }
+.block--grey {
+    background: #fff;
+    color: #161616
+}
 
 .block--white a {
-    border-bottom: 2px solid #ae0000;
+    border-bottom: 2px solid #739D00;
     color: #161616
 }
 
 .block--white a:hover {
-    border-color: #ae0000;
-    color: #ae0000
+    border-color: #739D00;
+    color: #739D00
 }
 
 .block--white a:active,
@@ -1590,7 +1594,7 @@ img {
 }
 
 .block--red {
-    background: #ae0000;
+    background: #739D00;
     color: #f5f5f1
 }
 
@@ -1686,7 +1690,7 @@ img {
 .hero {
     background: #161616 center no-repeat;
     background-size: cover;
-    border-bottom: #ae0000 5px solid;
+    border-bottom: #739D00 5px solid;
     padding: 1em 1em;
     position: relative;
     color: #f5f5f1
@@ -1728,7 +1732,7 @@ img {
     font-size: 160px;
     font-size: 8rem;
     position: relative;
-    text-shadow: black 3px 3px 0, #ae0000 5px 5px 0;
+    text-shadow: black 3px 3px 0, #739D00 5px 5px 0;
     text-transform: uppercase;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1738,7 +1742,7 @@ img {
 
 @media only screen and (max-width: 47.9375em) {
     .hero__title {
-        text-shadow: black 2px 2px 0, #ae0000 4px 4px 0;
+        text-shadow: black 2px 2px 0, #739D00 4px 4px 0;
         font-size: 100px;
         font-size: 5rem;
         -webkit-transform: none;
@@ -1775,7 +1779,7 @@ img {
 .lte9 .hero__title:after {
     left: 5px;
     top: 5px;
-    color: #ae0000
+    color: #739D00
 }
 
 @media only screen and (max-width: 47.9375em) {
@@ -3084,7 +3088,7 @@ img {
 }
 
 .main-navigation a:hover {
-    background: #ae0000;
+    background: #739D00;
     color: #f5f5f1
 }
 
@@ -3109,7 +3113,7 @@ img {
 }
 
 .main-navigation .menu__item--external a .svg--external-link {
-    fill: #ae0000;
+    fill: #739D00;
     height: 10px;
     position: absolute;
     right: 3px;
@@ -3248,7 +3252,7 @@ img {
 .single-job .menu__item--jobs a,
 .loading-from-jobs .menu__item--jobs a,
 .loading-from-job .menu__item--jobs a {
-    background-color: #ae0000;
+    background-color: #739D00;
     color: #f5f5f1
 }
 
@@ -3803,4 +3807,10 @@ img {
 }
 .add-list {
     text-align: left;
+}
+
+.media-img-2 {
+    width: 40%;
+    opacity: 0.8;
+    margin-right: -30%;
 }
