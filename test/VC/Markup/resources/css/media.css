@@ -150,7 +150,7 @@
 }
 
 .page-homepage .page-homepage-scroll {
-    bottom: -8em;
+    bottom: 0;
     display: block;
     height: 38px;
     left: 50%;
@@ -304,7 +304,7 @@
 
 .block--what-we-do {
     overflow: hidden;
-    padding-bottom: 0;
+    padding-bottom: 5em;
     padding-top: 6.8em
 }
 
@@ -353,6 +353,7 @@
     font-size: 33px;
     font-size: 1.65rem;
     font-weight: bold;
+    margin: 20px 0;
     text-transform: uppercase
 }
 
@@ -363,9 +364,9 @@
 }
 
 .block--what-we-do .media__copy__inner {
-    max-width: 30em;
+    /*max-width: 30em;*/
     padding: 0 2em;
-    width: 87.5%
+    width: 100%
 }
 
 .block--what-we-do .faux-img--iphone {
