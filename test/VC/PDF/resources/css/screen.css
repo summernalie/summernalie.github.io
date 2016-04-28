@@ -2321,7 +2321,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
         width: 20.5em
     }
 }
-/*
+
 @media only screen and (max-height: 40.625em) {
     .home-project-shape {
         top: 0;
@@ -2329,7 +2329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
         -ms-transform: translate(-50%, 10%);
         transform: translate(-50%, 10%)
     }
-}*/
+}
 
 @media only screen and (max-width: 61.25em) {
     .home-project-shape {
