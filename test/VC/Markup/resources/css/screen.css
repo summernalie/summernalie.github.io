@@ -2443,7 +2443,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     }
     .home-project-shape {
         left: auto;
-        position: relative;
+        position: relative !important;
         top: auto;
         -webkit-transform: none;
         -ms-transform: none;
