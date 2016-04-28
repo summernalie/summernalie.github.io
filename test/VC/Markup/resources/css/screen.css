@@ -2061,12 +2061,14 @@ img {
     width: 100%
 }
 .shape-reveal-wrap h4 {
+    color: #333;
     font-size: 26px;
     font-weight: 700;
         margin: 10% 0 10% 0;
     
 }
 .shape-reveal-wrap h5 {
+    color: #333;
     font-weight: 200;
     font-size: 22px;
     letter-spacing: -0.5px;
@@ -2457,10 +2459,7 @@ img {
     }
 }
 
-.home-project-inner-three {
-    background: #582781;
-    background: linear-gradient(to bottom, #343d45 0%, #582781 100%)
-}
+
 
 .home-project-inner--nimble {
     background: #fe6150;
@@ -2470,12 +2469,25 @@ img {
 
 .home-project-inner--rdio {
     background: #043e46;
-    background: radial-gradient(ellipse at center, #3dceb0 0%, rgba(61, 206, 176, 0) 100%), linear-gradient(to bottom, #043e46 0%, #0b6760 50%, #159761 100%)
+    background: radial-gradient(ellipse at center, #3dceb0 0%, rgba(61, 206, 176, 0) 100%), linear-gradient(to bottom, #043e46 0%, #0b6760 50%, #159761 100%);
+    
 }
 
+.home-project-inner-one {
+    background: #640CAB;
+    /*background: linear-gradient(to bottom, #640CAB 0%, #582781 100%);*/
+    background: radial-gradient(60vw at -5% 70%, #640CAB 0%, rgba(255, 165, 44, 0) 100%), radial-gradient(60vw at 105% 30%, #640CAB 0%, rgba(44, 197, 197, 0) 100%), radial-gradient(60vw at 70% 105%, #582781 0%, rgba(52, 195, 136, 0) 100%), #640CAB
+}
 .home-project-inner-two {
     background: #582781;
-    background: linear-gradient(to bottom, #9240D5 0%, #640CAB 50%, #582781 80%, #582781 100%)
+    /*background: linear-gradient(to bottom, #9240D5 0%, #640CAB 50%, #582781 80%, #582781 100%);*/
+    background: radial-gradient(60vw at -5% 70%, #640CAB 0%, rgba(255, 165, 44, 0) 100%), radial-gradient(60vw at 105% 30%, #FFCB00 0%, rgba(44, 197, 197, 0) 100%), radial-gradient(60vw at 70% 105%, #582781 0%, rgba(52, 195, 136, 0) 100%), #640CAB
+}
+
+.home-project-inner-three {
+    background: #582781;
+    /*background: linear-gradient(to bottom, #343d45 0%, #582781 100%);*/
+    background: radial-gradient(60vw at -5% 70%, #9240D5 0%, rgba(255, 165, 44, 0) 100%), radial-gradient(60vw at 105% 30%, #FFCB00 0%, rgba(44, 197, 197, 0) 100%), radial-gradient(60vw at 70% 105%, #582781 0%, rgba(52, 195, 136, 0) 100%), #640CAB
 }
 
 .home-project-inner-four {
@@ -2487,10 +2499,6 @@ img {
     background: #ffa306
 }
 
-.home-project-inner-one {
-    background: #640CAB;
-    background: linear-gradient(to bottom, #640CAB 0%, #582781 100%)
-}
 
 .faux-img,
 .faux-img--ipad,
