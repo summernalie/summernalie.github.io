@@ -10,7 +10,7 @@
 	<title>Samanalie Dias Jayasinha | CV</title>
 	<meta name="description" content="CV">
 	<meta name="keywords" content="user interface engineering, design, development, creativity">
-	
+	<link href="resources/css/font-awesome.min.css" rel="stylesheet">
 	<link href="resources/css/screen.css" rel="stylesheet">
     <link href="resources/css/media.css" rel="stylesheet">
 	
@@ -49,12 +49,16 @@
                             <p>I'm a User Experience Engineer, passionate about Web Design &amp; Web Development.</p>
                             <p class="center">I work well in teams and possess good interpersonal skills. Communication is important, and I always strive to listen to others while also being confident in sharing my own ideas. I enjoy finding creative solutions to problems, taking on new challenges and growing in knowledge and experience of new technologies.
 </p>
-                            <span class="bio-contact">samanalie@outlook.com</span>
+                            <span class="bio-contact">
+                                <a href="https://lk.linkedin.com/in/samanaliedj" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/samanaliedj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="mailto:samanalie@outlook.com" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                            </span>
                         </h2>
                         
                         
                     </div>
-                    <a class="page-homepage-scroll" href="javascript:void(0);">
+                    <a id="scroll-down" class="page-homepage-scroll" href="javascript:void(0);">
                             <svg class="svg-scroll" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 472.682 472.682" style="enable-background:new 0 0 472.682 472.682;" xml:space="preserve" width="58px" height="58px">
 <g>
 	<g>
@@ -91,7 +95,7 @@
                             <li>jQuery, Javascript</li>
                             <li>Adobe Suite (Photoshop, Dreamweaver, Illustrator)</li>
                             <li>SharePoint 2013, 2010 and 2007 Branding</li>
-                            <li>UI Frameworks and Libraries</li>
+                            <li>UI Frameworks and Libraries (Bootstrap, SASS)</li>
                             <li>SVG Animation</li>
                             <li>Prototyping</li>
                             <li>Web related Research and Development</li>
@@ -424,6 +428,11 @@
                 <p class="block__copy">I have a passion for music, a love for writing and an addiction to reading.</p>
                 <p class="block__copy">I'm a self-proclaimed geek, and in my free time, I enjoy discovering new worlds of science fiction and fantasy, be it in literature, cinema or television. I also like to share my thoughts on those mediums on my blog: <a target="_blank" href="http://samanalie.com/thethingis">here</a></p>
                 
+                
+                <a id="scroll-up" class="page-homepage-scroll" href="javascript:void(0);">
+                            <svg  data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.47 512"><title>chevron-up</title><polygon points="247.89 60.24 463.35 233.99 493.47 196.92 247.89 0 0 196.92 27.8 233.99 247.89 60.24" style="fill:#fff"/><polygon points="0 474.93 27.8 512 247.89 338.25 463.35 512 493.47 474.93 247.89 278.01 0 474.93" style="fill:#fff"/><polygon points="247.89 199.24 463.35 373 493.47 335.93 247.89 139 0 335.93 27.8 373 247.89 199.24" style="fill:#fff"/></svg>
+                        </a> 
+                
             </div>
             <footer class="site-footer">
     
@@ -462,29 +471,11 @@ if (IEversion !== false) {
   console.log('NOT IE');
 }
 
-// add details to debug result
-//document.getElementById('details').innerHTML = window.navigator.userAgent;
 
-/**
- * detect IE
- * returns version of IE or false, if browser is not Internet Explorer
- */
 function detectIE() {
   var ua = window.navigator.userAgent;
 
-  // Test values; Uncomment to check result …
-
-  // IE 10
-  // ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
   
-  // IE 11
-  // ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
-  
-  // IE 12 / Spartan
-  // ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0';
-  
-  // Edge (IE 12+)
-  // ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586';
 
   var msie = ua.indexOf('MSIE ');
   if (msie > 0) {
@@ -508,6 +499,20 @@ function detectIE() {
   // other browser
   return false;
 }
+        
+        
+        $("#scroll-down").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".block--what-we-do").offset().top
+    }, 1000);
+});
+        
+        
+        $("#scroll-up").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#page").offset().top
+    }, 2000);
+});
     </script>
     
 </body>

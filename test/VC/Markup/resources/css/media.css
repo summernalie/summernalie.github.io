@@ -168,7 +168,7 @@
 
 .page-homepage .page-homepage-scroll svg {
     display: block;
-    fill: #f5f5f1;
+    fill: #739D00;
     height: 100%;
     max-width: 100%;
     transition: fill 0.25s cubic-bezier(0.625, 0.125, 0.305, 0.875);
@@ -444,7 +444,7 @@
 }
 
 .block-more {
-    padding-bottom: 14em;
+    /*padding-bottom: 14em;*/
     position: relative
 }
 

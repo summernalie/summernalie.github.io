@@ -1779,12 +1779,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 }
 .bio-contact {
     font-weight: 300;
-    font-size: 20px;
-    color: #739D00;
+    font-size: 30px;
+    color: #fff;
+}
+.bio-contact a {
+    display: inline-block;
+    margin: 0 5px;
+    
 }
 .page-homepage .page-homepage-scroll:hover svg,
 .page-homepage .page-homepage-scroll.page-homepage-scroll--animate svg {
     fill: #739D00
+}
+.block-more .wrap {
+    padding: 50px 0 80px 0;
+}
+#scroll-up {
+    margin--top: 40px;
 }
 
 
