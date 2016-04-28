@@ -436,6 +436,9 @@
         text-align: center;
         width: 100%
     }
+    .home-project-shape {
+        position: fixed !important;
+    }
 }
 
 .block--forward-thinking a {
