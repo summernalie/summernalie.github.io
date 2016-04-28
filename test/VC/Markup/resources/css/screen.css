@@ -2074,11 +2074,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 }
 
 .home-project-shape {
+    clear: both;
     display: block;
     left: 50%;
     max-width: 620px;
     max-height: 866px;
     position: fixed;
+    z-index: 999999;
     top: 50%;
     margin-top: -50px;
     -webkit-transform: translate(-50%, -50%);
@@ -2092,6 +2094,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 .home-project-shape h2.block-title {
     font-size: 56px;
     text-transform: uppercase;
+    clear:both;
 }
 .home-project-shape .shape-responsive {
     margin: 0 auto;
@@ -2121,6 +2124,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     top: 0;
     width: 100%
 }
+.shape-responsive__inner#one {
+    background: url(../images/shape0.png);
+    background-size: cover;
+}
 
 .responsive__bg__wrap {
     bottom: 0;
@@ -2147,6 +2154,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     width: 83.81963%
 }*/
 .shape-reveal {
+    clear:both;
     height: 100px;
     left: 8.48806%;
     position: absolute;
