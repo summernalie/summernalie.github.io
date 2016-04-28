@@ -1,0 +1,25 @@
+<svg id="Objects" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.36 117.92"><defs><style>
+    .cls-1 {
+    fill: #FFD840;
+    stroke: #b18d01;
+}
+
+.cls-1,
+.cls-2,
+    .cls-3 {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1px;
+}
+.cls-3,
+.cls-2 {
+    fill: none;
+}
+    .cls-2 {
+    stroke: #8a6e02;
+    }
+    
+    .cls-3 {
+    stroke: #8a6e02;
+    }
+    </style></defs><title>ww</title><polygon class="cls-1" points="133.2 2.5 115.19 35.68 97.18 2.5 79.17 35.68 61.16 2.5 2.5 2.5 33.92 60.38 49.29 60.38 79.17 115.42 97.18 82.24 115.19 115.42 145.07 60.38 160.44 60.38 191.86 2.5 133.2 2.5"/><line class="cls-2" x1="19.65" y1="42.26" x2="61.16" y2="42.26"/><line class="cls-2" x1="174.71" y1="42.26" x2="133.2" y2="42.26"/><polyline class="cls-3" points="184.5 24.14 143.1 24.14 115.19 75.55 97.18 42.37 79.17 75.55 51.27 24.14 9.87 24.14"/></svg>

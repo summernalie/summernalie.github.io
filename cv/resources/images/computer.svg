@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 468.91 393.83"><defs>
+    <style>
+    
+        .cls-1 {
+    isolation: isolate;
+}
+
+.cls-2 {
+    mask: url(#mask);
+}
+
+.cls-10,
+.cls-3,
+.cls-7 {
+    mix-blend-mode: multiply;
+}
+
+.cls-3 {
+    fill: url(#radial-gradient);
+}
+
+.cls-4 {
+    fill: #ddd;
+}
+
+.cls-5 {
+    fill: #ccc;
+}
+
+.cls-6 {
+    mask: url(#mask-2);
+}
+
+.cls-7 {
+    opacity: 0.48;
+    fill: url(#radial-gradient-2);
+}
+
+.cls-10,
+.cls-8 {
+    fill: #999;
+}
+
+.cls-9 {
+    fill: #e3fc9d;
+}
+
+.cls-10 {
+    opacity: 0.13;
+}
+
+.cls-11 {
+    fill: #a2c63e;
+}
+        
+.cls-12 {
+    fill: #91B52D;
+}
+
+.cls-11 {
+    stroke: #ccc;
+    stroke-miterlimit: 10;
+    stroke-width: 0.34px;
+}
+
+.cls-13 {
+    fill: #668a03;
+}
+
+.cls-14 {
+    fill: #739D00;
+}
+
+.cls-15 {
+    filter: url(#luminosity-noclip);
+}
+    
+    </style>
+    <filter id="luminosity-noclip" x="934.44" y="248.74" width="457.71" height="33.85" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-color="#fff" result="bg"/><feBlend in="SourceGraphic" in2="bg"/></filter><mask id="mask" x="0" y="359.99" width="457.71" height="33.85" maskUnits="userSpaceOnUse"><g class="cls-15"/></mask><radialGradient id="radial-gradient" cx="-4182.39" cy="72262.09" r="267.52" gradientTransform="translate(-60620.79 0.92) rotate(-90) scale(0.06 0.85)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#666"/><stop offset="0.19" stop-color="#7c7c7c"/><stop offset="0.59" stop-color="#b3b3b3"/><stop offset="1" stop-color="#f2f2f2"/></radialGradient><filter id="luminosity-noclip-2" x="1368.74" y="-95.75" width="34.61" height="360.28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-color="#fff" result="bg"/><feBlend in="SourceGraphic" in2="bg"/></filter><mask id="mask-2" x="434.31" y="15.49" width="34.61" height="360.28" maskUnits="userSpaceOnUse"><g class="cls-14"/></mask>
+    <radialGradient id="radial-gradient-2" cx="-730.53" cy="75375.75" r="249.81" gradientTransform="matrix(-0.07, 0, 0, -0.72, 1342.96, 54407.69)" xlink:href="#radial-gradient"/></defs><title>computer</title><g class="cls-1"><g id="OBJECTS"><g class="cls-2"><path class="cls-3" d="M1163.33,248.74c-126.39,0-228.87,7.59-228.9,16.93s102.43,16.92,228.82,16.92,228.87-7.59,228.89-16.93S1289.74,248.74,1163.33,248.74Z" transform="translate(-934.44 111.25)"/></g><polygon class="cls-4" points="284.23 359.95 279.84 320.39 236.5 307.15 236.5 306.57 235.56 306.86 234.62 306.57 234.62 307.15 191.29 320.39 186.89 359.95 170.56 363.72 170.56 376.91 234.62 376.91 236.5 376.91 300.56 376.91 300.56 363.72 284.23 359.95"/><polygon class="cls-5" points="282.7 346.2 189.18 339.34 190.29 329.31 280.94 329.31 282.7 346.2"/><polygon class="cls-5" points="170.56 368.28 170.56 376.91 300.56 376.91 300.56 374.66 170.56 363.72 170.56 368.28"/><g class="cls-6"><path class="cls-7" d="M1368.74,84.35c0,99.49,7.76,180.15,17.32,180.17s17.3-80.63,17.29-180.11S1395.58-95.74,1386-95.75,1368.73-15.14,1368.74,84.35Z" transform="translate(-934.44 111.25)"/></g><path class="cls-4" d="M1397.06,208.62a12.44,12.44,0,0,1-12.43,12.45h-430a12.44,12.44,0,0,1-12.43-12.45V-94.8a12.44,12.44,0,0,1,12.43-12.45h430a12.44,12.44,0,0,1,12.43,12.45V208.62Z" transform="translate(-934.44 111.25)"/><path class="cls-8" d="M1170,207a14.75,14.75,0,1,1,14.75-14.75A14.77,14.77,0,0,1,1170,207Zm0-20.5a5.75,5.75,0,1,0,5.75,5.75A5.76,5.76,0,0,0,1170,186.49Z" transform="translate(-934.44 111.25)"/><path class="cls-9" d="M951.09,155.86V-96.72c0-2.21,1.43-4.15,3.07-4.15h430.68c1.63,0,3.07,1.94,3.07,4.15V155.86H951.09Z" transform="translate(-934.44 111.25)"/><path class="cls-8" d="M1378.53-91.48v238H960.47v-238h418.05m6.31-18.76H954.16c-6.88,0-12.45,6.06-12.45,13.53v262h455.58v-262c0-7.47-5.57-13.53-12.45-13.53h0Z" transform="translate(-934.44 111.25)"/><path class="cls-10" d="M1384.51-111.25H1224.46L1036.24,164.24H1397v-262C1397-105.19,1391.39-111.25,1384.51-111.25Z" transform="translate(-934.44 111.25)"/><path class="cls-14" d="M1097.27,107.9V82a3.93,3.93,0,0,0-3.92-3.92h-50.18a3.93,3.93,0,0,0-3.92,3.92V107.9a3.93,3.93,0,0,0,3.92,3.92h50.19A3.93,3.93,0,0,0,1097.27,107.9Zm-2.83-17.07V99.1a0.48,0.48,0,0,1-1,0V90.82A0.48,0.48,0,0,1,1094.44,90.82ZM1041.2,95a2,2,0,1,1,2,2A2,2,0,0,1,1041.2,95Zm5.29,14.13V80.83h44.56v28.25H1046.5Z" transform="translate(-934.44 111.25)"/><g id="Laptop"><path class="cls-11" d="M1319.86-56.82H1137.17a21.1,21.1,0,0,0-21.08,21.08V55.6a21.1,21.1,0,0,0,21.08,21.08h182.69a21.1,21.1,0,0,0,21.08-21.08V-35.74A21.1,21.1,0,0,0,1319.86-56.82Zm7,112.42a7,7,0,0,1-7,7H1137.17a7,7,0,0,1-7-7V-35.74a7,7,0,0,1,7-7h182.69a7,7,0,0,1,7,7V55.6Zm3.51,35.13h-73.78a7,7,0,0,1-7,7h-42.16a7,7,0,0,1-7-7h-73.78a10.54,10.54,0,0,0,0,21.08H1330.4A10.54,10.54,0,0,0,1330.4,90.74Z" transform="translate(-934.44 111.25)"/></g><path class="cls-12" d="M1086.45-52.28h-72.14a10.85,10.85,0,0,0-10.82,10.82V52.32a10.85,10.85,0,0,0,10.82,10.82h72.14a10.85,10.85,0,0,0,10.82-10.82V-41.46A10.85,10.85,0,0,0,1086.45-52.28ZM1050.38,59.53a3.61,3.61,0,1,1,3.61-3.61A3.61,3.61,0,0,1,1050.38,59.53Zm32.46-10.82h-64.92V-37.85h64.92V48.71Z" transform="translate(-934.44 111.25)"/><circle class="cls-13" cx="416.49" cy="40.55" r="2.43"/><path class="cls-13" d="M1356.73-76.55l-0.11-.1-0.11-.1-0.06-.05a7.91,7.91,0,0,0-10.93.26l-0.35.35-0.49.49a1.52,1.52,0,0,0,0,2.15,1.52,1.52,0,0,0,2.15,0l0.84-.84a4.89,4.89,0,0,1,6.9,0l0.61,0.59a1.51,1.51,0,0,0,2.13,0,1.5,1.5,0,0,0,.44-1.07,1.48,1.48,0,0,0-.44-1.06Z" transform="translate(-934.44 111.25)"/><path class="cls-13" d="M1360.86-79.55l-0.5-.5h0l-0.4-.4a1.45,1.45,0,0,0-.23-0.18,13.21,13.21,0,0,0-17.84.41l-0.08.06-0.91.91a1.38,1.38,0,0,0,0,2,1.38,1.38,0,0,0,2,0l0.91-.91,0,0a10.43,10.43,0,0,1,14.39-.08l0.72,0.72a1.39,1.39,0,0,0,2,0A1.39,1.39,0,0,0,1360.86-79.55Z" transform="translate(-934.44 111.25)"/></g></g></svg>
