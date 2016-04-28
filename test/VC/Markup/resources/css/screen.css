@@ -680,14 +680,14 @@ body>footer.focusable:focus {
 }
 
 a {
-    color: #525252;
+    color: #B1F100;
     transition: all 0.25s cubic-bezier(0.625, 0.125, 0.305, 0.875);
     text-decoration: none;
     -webkit-tap-highlight-color: transparent
 }
 
 a:hover {
-    color: #f5f5f1
+    color: #A468D5
 }
 
 a:active,
@@ -2081,15 +2081,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     width: 100%
 }
 .shape-reveal-wrap h4 {
-    color: #333;
+    color: #555;
     font-size: 22px;
     font-weight: 500;
     margin: 0 0 10px 0;
 }
+
 .shape-reveal-wrap h5 {
-    color: #333;
-    font-weight: 200;
-    font-size: 22px;
+    color: #eee;
+    font-weight: 400;
+    font-size: 18px;
     letter-spacing: -0.5px;
 }
 .skill-list {
@@ -3837,7 +3838,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     border-bottom: 2px solid #739D00;
 }
 .add-list {
+    width: 50%;
+    margin: 20px auto;
     text-align: left;
+    padding: 0;
+}
+.add-list > li {
+    list-style: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.add-list > li ul {
+    padding: 0;
+    margin: 5px 0 15px 0;
+}
+.add-list > li ul li {
+    text-align: center;
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.add-list > li ul li label {
+    color: #739D00;
 }
 
 .media-img-2 {

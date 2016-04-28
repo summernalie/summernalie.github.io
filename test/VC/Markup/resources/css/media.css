@@ -13666,19 +13666,20 @@ h1 {
 }
 
 .site-footer {
-    bottom: 0.5em;
+    bottom: 0;
     font-size: 14px;
     font-size: 0.7rem;
+    margin-bottom: 20px;
     font-weight: bold;
     letter-spacing: .1em;
     padding: 0 1em 1em;
     position: absolute;
     text-transform: uppercase;
-    width: 100%
+    width: 100%;
 }
 
 .site-footer a {
-    color: #f5f5f1;
+    color: #B1F100;
     padding: 0.0625rem 0.25rem
 }
 
@@ -13691,7 +13692,7 @@ h1 {
 .site-footer a:hover,
 .site-footer a:focus,
 .site-footer a:active {
-    color: #ae0000
+    color: #A468D5
 }
 
 .site-footer a:active {
