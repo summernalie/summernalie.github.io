@@ -46,7 +46,7 @@
                     <div class="wrap-center">
 
                         <h2 class="content-title center">
-                            <p class="cursive">I'm a User Experience Engineer, passionate about Web Design &amp; Web Development.</p>
+                            <p class="cursive"><span>I'm a User Experience Engineer, passionate about Web Design &amp; Web Development.</span></p>
                             <p class="center">I work well in teams and possess good interpersonal skills. Communication is important, and I always strive to listen to others while also being confident in sharing my own ideas. I enjoy finding creative solutions to problems, taking on new challenges and growing in knowledge and experience of new technologies.
 </p>
                             <span class="bio-contact">
@@ -130,7 +130,7 @@
 
 		<div class="home-project__clip">
 			<div class="home-project-shape">
-				<h2 class="block-title">Work Experience</h2>
+				<h2 class="block-title" id="first-title">Work Experience</h2>
 				<div class="shape-responsive">
 					<div class="shape-responsive__inner">
 						<div class="shape-responsive__bg">
@@ -425,7 +425,7 @@
             </div>
             <div class="wrap">
                 <h2 class="block-title">More about me</h2>
-                <p class="block__copy">I have a passion for music, a love for writing and an addiction to reading.</p>
+                <p class="block__copy cursive">I have a passion for music, a love for writing and an addiction to reading.</p>
                 <p class="block__copy">I'm a self-proclaimed geek, and in my free time, I enjoy discovering new worlds of science fiction and fantasy, be it in literature, cinema or television. I also like to share my thoughts on those mediums on my blog: <a target="_blank" href="http://samanalie.com/thethingis">here</a></p>
                 
                 
@@ -458,14 +458,17 @@ var IEversion = detectIE();
 
 if (IEversion !== false) {
   console.log('IE ' + IEversion);
-    $("#img0").attr('src', 'resources/images/ieshape0.png');
+   /* $("#img0").attr('src', 'resources/images/ieshape0.png');
     $("#img1").attr('src', 'resources/images/ieshape1.png');
     $("#img2").attr('src', 'resources/images/ieshape2.png');
     $("#img3").attr('src', 'resources/images/ieshape3.png');
     
-    $(".shape-reveal-wrap").css('opacity', '0');
-    
+    $(".shape-reveal-wrap").css('opacity', '0');*/
+    $('body').addClass('isie');
     $(".home-project-shape").css('position', 'absolute');
+    $(".home-projects .block-title").css('opacity', '0');
+    $(".home-projects .block-title#first-title").css('opacity', '1');
+    
     
 } else {
   console.log('NOT IE');

@@ -445,11 +445,11 @@
         font-size: 14px;
     }
     .title-icon svg {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
     .home-job-title h6 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .point-list li {
         font-size: 16px;
@@ -466,11 +466,6 @@
 .block--forward-thinking a {
     border-color: transparent;
     font-weight: inherit
-}
-
-.block-more {
-    /*padding-bottom: 14em;*/
-    position: relative
 }
 
 .block-more .block__clipper {
@@ -534,10 +529,7 @@
     }
 }
 
-.block-more .block__copy {
-    margin: 0 0 1em;
-    max-width: 100%
-}
+
 
 @media only screen and (max-width: 40em) {
     .block-more {
@@ -547,7 +539,7 @@
 
 @media only screen and (max-width: 22.5em) {
     .block-more {
-        padding-bottom: 14em
+        padding-bottom: 4em
     }
 }
 
