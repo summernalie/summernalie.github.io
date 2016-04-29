@@ -2,14 +2,14 @@
     font-family: 'Parisish';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/Yellowtail-Regular.ttf');
+    src: url('../fonts/montserrat/Montserrat-Light.ttf');
     /* IE9 Compat Modes */
 }
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+    src: url('../fonts/montserrat/Montserrat-Light.ttf');
     /* IE9 Compat Modes */
 }
 
@@ -62,7 +62,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', 'Open Sans', sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     line-height: 30px;
 }
 article,
@@ -370,7 +370,7 @@ input,
 select,
 textarea {
     color: #f5f5f1;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -1640,7 +1640,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Segoe UI';
+    font-family: 'Montserrat';
     text-shadow: 1px 1px 1px #666;
 }
 
