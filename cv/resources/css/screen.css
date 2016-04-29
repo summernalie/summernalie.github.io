@@ -5,7 +5,7 @@
     src: url('../fonts/Yellowtail-Regular.eot'); /* IE9 Compat Modes */
   src: url('../fonts/Yellowtail-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/Yellowtail-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Yellowtail-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */    
+       url('../fonts/Yellowtail-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */    
 }
 @font-face {
     font-family: 'Montserrat';
