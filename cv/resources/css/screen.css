@@ -2,14 +2,14 @@
     font-family: 'Parisish';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/montserrat/Montserrat-Light.ttf');
+    src: url('../fonts/Yellowtail-Regular.ttf');
     /* IE9 Compat Modes */
 }
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/montserrat/Montserrat-Light.ttf');
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
     /* IE9 Compat Modes */
 }
 
@@ -48,7 +48,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     src: url('../fonts/montserrat/Montserrat-Light.ttf');
     /* IE9 Compat Modes */
 }
@@ -2211,7 +2211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
     width: 100%
 }
 .shape-reveal-wrap h4 {
-    color: #555;
+    color: #fff;
     font-size: 22px;
     font-weight: 500;
     margin: 0 0 10px 0;
