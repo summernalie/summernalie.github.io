@@ -2,7 +2,7 @@
     font-family: 'Bilbo';
     font-style: normal;
     font-weight: normal;
-    src: url('../../../assets/fonts/bilbohand/bilbobold.ttf');
+    src: url('/assets/fonts/bilbohand/bilbobold.ttf');
     /* IE9 Compat Modes */
 }
 
@@ -10,14 +10,14 @@
     font-family: 'Aniron';
     font-style: normal;
     font-weight: normal;
-    src: url('../../../assets/fonts/aniron/anirm.ttf');
+    src: url('/assets/fonts/aniron/anirm.ttf');
     /* IE9 Compat Modes */
 }
 @font-face {
     font-family: 'Ringbearer';
     font-style: normal;
     font-weight: normal;
-    src: url('../../../assets/fonts/ringbearer/ringbearer.ttf');
+    src: url('/assets/fonts/ringbearer/ringbearer.ttf');
     /* IE9 Compat Modes */
 }
 
@@ -25,7 +25,7 @@
     font-family: 'Josefin';
     font-style: normal;
     font-weight: 100;
-    src: url('../../../assets/fonts/josefinsans/JosefinSans-Thin.ttf');
+    src: url('/assets/fonts/josefinsans/JosefinSans-Thin.ttf');
     /* IE9 Compat Modes */
 }
 
