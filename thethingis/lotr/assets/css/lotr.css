@@ -139,6 +139,15 @@ h1 {
 
 section {
     padding: 30px 0;
+    position: relative;
+    color: #0a0d00;
+}
+section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .spacer {
     max-height: 400px;
@@ -165,8 +174,9 @@ section {
 }
 
 #sec2 {
+    color: #0a0d00;
     background: #bcbc6c url(../images/aragorn.png);
-    background-size: contain;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -197,7 +207,7 @@ section {
     background-repeat: no-repeat;
     background-position: bottom;
     min-height: 400px;
-    padding-bottom: 370px;
+    padding-bottom: 300px;
 }
 
 #sec7 {
@@ -256,4 +266,64 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255, 255
 #menu,
 .myfooter {
     background: #382701;
+}
+
+
+@media screen and (max-width: 991px) {
+    #menu.shrink h1 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .quote h3,
+    .quote h3 p {
+        font-size: 18px;
+    }
+    .quote h3 i {
+        font-size: 14px;
+    }
+    .quote h3 span:first-child {
+        left: -30px;
+    }
+    .quote h3 span:last-child {
+        right: -30px;
+    }
+    
+    #sec2 .overlay {
+        background: rgba(188, 188, 108, 0.7);
+    }
+    #sec4 .overlay {
+        background: rgba(164, 206, 191, 0.7);
+    }
+    #sec5 {
+        background-size: 200%;
+        padding-top: 40px;
+    }
+    #sec5 .overlay {
+        background: rgba(230, 228, 77, 0.7);
+    }
+    #quote4 h3 {
+        margin-top: 100px;
+    }
+    #sec6 {
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #menu.shrink h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #intro h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #intro h1 span {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    #sec6 {
+        padding-bottom: 100px;
+    }
 }

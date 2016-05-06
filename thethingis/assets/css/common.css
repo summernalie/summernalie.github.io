@@ -86,12 +86,27 @@
     ===================================*/
 
 .myfooter {
-    background-color: #4bb777;
+    background-color: #000;
     padding: 5px 40px 5px 40px;
     color: #fff;
     font-size: 14px;
     text-align: right;
 }
+
+
+.social {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social li {
+    display: inline-block;
+}
+.social .fb-share-button {
+    float: left;
+}
+
 
 
 @media screen and (max-width: 767px) {
