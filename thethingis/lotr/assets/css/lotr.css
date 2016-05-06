@@ -102,13 +102,13 @@
 }
 html {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e6e44d+0,ffffff+100 */
-    background: url('/thethingis/lotr/images/old_map.png') repeat;
+    background: url('/thethingis/lotr/assets/images/old_map.png') repeat;
     
 }
 body {
     font-family: 'Josefin', 'Open Sans', sans-serif;
     background-color: transparent;
-    background-image: url(/thethingis/lotr/images/tree.png);
+    background-image: url(/thethingis/lotr/assets/images/tree.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -175,7 +175,7 @@ section .overlay {
 
 #sec2 {
     color: #0a0d00;
-    background: #bcbc6c url(/thethingis/lotr/images/aragorn.png);
+    background: #bcbc6c url(/thethingis/lotr/assets/images/aragorn.png);
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right;
@@ -186,7 +186,7 @@ section .overlay {
 }
 
 #sec4 {
-    background: rgba(164, 206, 191, 0.8) url(/thethingis/lotr/images/frodo.png);
+    background: rgba(164, 206, 191, 0.8) url(/thethingis/lotr/assets/images/frodo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -194,7 +194,7 @@ section .overlay {
 
 
 #sec5 {
-    background: rgba(230, 228, 77, 0.8) url(/thethingis/lotr/images/sam.png);
+    background: rgba(230, 228, 77, 0.8) url(/thethingis/lotr/assets/images/sam.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top;
@@ -202,7 +202,7 @@ section .overlay {
     padding-top: 350px;
 }
 #sec6 {
-    background: rgba(255, 255, 255, 0.8) url(/thethingis/lotr/images/others.png);
+    background: rgba(255, 255, 255, 0.8) url(/thethingis/lotr/assets/images/others.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -254,7 +254,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255, 255
 }
 #quote4 {
     min-height: 400px;
-    background: rgba(80, 97, 139, 0.8) url(/thethingis/lotr/images/carry.png);
+    background: rgba(80, 97, 139, 0.8) url(/thethingis/lotr/assets/images/carry.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right 20%;
