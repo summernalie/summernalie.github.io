@@ -262,7 +262,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255, 255
 #quote4 h3 {
     color: #fff;
 }
-
+.myfooter {
+    padding: 10px 0;
+}
 #menu,
 .myfooter {
     background: #382701;
