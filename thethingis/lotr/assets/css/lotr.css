@@ -240,6 +240,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255, 255
 }
 .quote h3 i {
     font-size: 20px;
+    color: rgba(80, 61, 0, 0.8);
 }
 #quote4 {
     min-height: 400px;
