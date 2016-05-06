@@ -119,6 +119,7 @@ body {
     background-image: url(../images/tree.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
     color: #503d00;
 }
 
@@ -141,6 +142,7 @@ h1 {
     font-weight: 700;
     font-size: 40px;
     color: #503d00;
+    line-height: 50px;
 }
 
 section {
@@ -151,10 +153,21 @@ section {
     overflow: hidden;
 }
 #intro {
-    
+    background: rgba(230, 228, 77, 0.8);
+}
+#intro h1 {
     
 }
-
+#intro h1 span {
+    font-size: 18px;
+    display: inline-block;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+#menu.shrink h1 {
+    font-size: 18px;
+    line-height: 24px;
+}
 #sec1 {
     background: rgba(195, 212, 0, 0.8);
 }
@@ -237,7 +250,7 @@ copy
     background: rgba(80, 97, 139, 0.8) url(../images/carry.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right 20%;
 }
 #quote4 h3 {
     color: #fff;
