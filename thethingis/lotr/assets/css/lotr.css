@@ -199,7 +199,7 @@ section .overlay {
     background-repeat: no-repeat;
     background-position: top;
     min-height: 400px;
-    padding-top: 350px;
+    padding-top: 400px;
 }
 #sec6 {
     background: rgba(255, 255, 255, 0.8) url(/thethingis/lotr/assets/images/others.png);
@@ -207,7 +207,7 @@ section .overlay {
     background-repeat: no-repeat;
     background-position: bottom;
     min-height: 400px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 
 #sec7 {
