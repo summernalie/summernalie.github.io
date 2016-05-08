@@ -5,6 +5,7 @@
     margin-left: -150px;
     display: block;
     width: 300px;
+    z-index: 99;
     -webkit-transition: all 0.5s ease 1s;
     -moz-transition: all 0.5s ease 1s;
     -o-transition: all 0.5s ease 1s;
