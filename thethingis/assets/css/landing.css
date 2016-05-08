@@ -67,6 +67,12 @@
     src: url('../fonts/montserrat/Montserrat-UltraLight.ttf');
     /* IE9 Compat Modes */
 }
+@font-face {
+    font-family: 'Aniron';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/aniron/anirm.ttf');
+}
 
 body {
     font-family: 'Montserrat', 'Open Sans', sans-serif;
@@ -270,6 +276,10 @@ body {
     position: relative;
     height: 400px;
 }
+
+
+
+
 .portion:hover {
     
     text-decoration: none;
@@ -309,6 +319,44 @@ body {
 
 
 
+
+.portion4 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+    /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
+     background: url(../../lotr/assets/images/rivendell.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../../lotr/assets/images/rivendell.jpg);
+    background-position: center center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion4 h3 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 30%;
+    font-family: 'Aniron', fantasy, sans-serif;
+}
+.portion4 h2 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Aniron', fantasy, sans-serif;
+    color: #55d8c7;
+    text-shadow: 3px 3px 1px #714a01;
+}
+
+
+
 /*=====================================
   FOOTER STYLES 
     ===================================*/
@@ -342,7 +390,7 @@ body {
     }
     .portion {
         height: auto;
-        padding: 20px;
+        padding: 20px 0;
     }
     .portion h2 {
         font-size: 30px;
@@ -354,8 +402,16 @@ body {
         padding-bottom: 10px;
         
     }
-    .portion3 {
+    .portion3,
+    .portion4 {
         height: 300px !important;
+    }
+    .portion4 h3 {
+        font-size: 10px;
+    }
+    .portion4 h2 {
+        bottom: 25%;
+        font-size: 14px;
     }
    
 }
