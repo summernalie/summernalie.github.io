@@ -355,7 +355,22 @@ body {
     text-shadow: 3px 3px 1px #714a01;
 }
 
-
+.portion5 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+    /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
+     background: url(../../assets/img/warcraft/mix2.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../../assets/img/warcraft/mix2.jpg);
+    background-position: center center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
 
 /*=====================================
   FOOTER STYLES 
