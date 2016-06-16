@@ -214,6 +214,9 @@ h1 {
     font-weight: 300;
     text-shadow: 2px 2px 5px #000;
 }
+#intro img {
+    display: inline-block;
+}
 #intro h1 span {
     width: 100%;
     display: block;
