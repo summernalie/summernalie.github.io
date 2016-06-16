@@ -333,7 +333,7 @@ body {
     /*-webkit-background-size: cover;
     background-size: cover;*/
     color: #fff;
-    height: 500px !important;
+    /*height: 500px !important;*/
     text-decoration: none;
 }
 .portion4 h3 {
@@ -350,6 +350,7 @@ body {
     bottom: 20%;
     margin: 0;
     padding: 0;
+    font-size: 30px;
     font-family: 'Aniron', fantasy, sans-serif;
     color: #55d8c7;
     text-shadow: 3px 3px 1px #714a01;
