@@ -372,6 +372,12 @@ body {
     height: 500px !important;
     text-decoration: none;
 }
+.portion5 h2 {
+    text-shadow: 3px 3px 1px #29498b;
+}
+.portion h3 {
+    
+}
 
 /*=====================================
   FOOTER STYLES 
