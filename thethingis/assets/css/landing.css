@@ -363,7 +363,7 @@ body {
     padding-top: 150px;
      background: url(../../assets/img/warcraft/mix.jpg) no-repeat top center;
     background: url(../img/silkscreen.svg), url(../../assets/img/warcraft/mix.jpg);
-    background-position: center center;
+    background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
     /*-webkit-background-size: cover;
@@ -374,7 +374,7 @@ body {
 }
 .portion5 h2 {
     font-size: 45px;
-    text-shadow: 3px 3px 1px #29498b;
+    text-shadow: 3px 3px 1px #fff;
 }
 .portion h3 {
     
