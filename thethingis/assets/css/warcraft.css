@@ -419,6 +419,9 @@ section .overlay {
     float: none;
         margin-top: 60px;
     }
+    #section9 p {
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -431,7 +434,5 @@ section .overlay {
         font-size: 30px;
         margin-top: -40px;
     }
-    #section9 p {
-        position: relative;
-    }
+    
 }
