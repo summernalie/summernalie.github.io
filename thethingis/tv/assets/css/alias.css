@@ -63,17 +63,21 @@
 }
 body {
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    background: #000 url(/thethingis/tv/assets/img/alias/graphic.png) bottom right;
 }
 h1 {
     font-family: 'Alias', 'Open Sans', sans-serif;
     margin-top: 100px;
     font-weight: 100;
     font-size: 140px;
-    color: #503d00;
+    color: #d60404;
 }
-
+.red {
+    color: #d60404;
+}
 .header-sec1 {
-    background: #222;
+    min-height: 600px;
+    background: #000 url(/thethingis/tv/assets/img/alias/red2.jpg) right no-repeat;
 }
 #bill1 {
     font-size: 140px;
@@ -83,5 +87,30 @@ h1 {
 }
 
 .intro {
-    
+    background: #000;
+    padding: 40px;
+}
+.intro p {
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+}
+
+.sec1 {
+    min-height: 500px;
+    padding: 40px;
+    background: #000 url(/thethingis/tv/assets/img/alias/alias.jpg) left center no-repeat;
+    background-size: contain;
+}
+.sec1 p {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+.sec1 p:first-child {
+    margin: 30px 50px;
+    padding: 30px;
+    color: #d60404;
 }
