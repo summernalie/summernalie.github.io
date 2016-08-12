@@ -275,6 +275,7 @@ body {
 .portion {
     position: relative;
     height: 400px;
+    margin-bottom: 30px;
 }
 
 
@@ -376,6 +377,31 @@ body {
     font-size: 45px;
     text-shadow: 3px 3px 1px #fff;
 }
+
+
+.portion6 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+     background: url(../../books/assets/images/cursedchild.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../../books/assets/images/cursedchild.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+
+.portion6 h2 {
+    color: #f1ae12;
+    font-size: 45px;
+    text-shadow: 3px 3px 1px #000;
+}
+
+
 .portion h3 {
     
 }

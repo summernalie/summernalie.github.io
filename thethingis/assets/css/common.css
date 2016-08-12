@@ -28,6 +28,10 @@
     max-height: 30px
 }
 
+.italic {
+    font-style: italic;
+}
+
 #menu {
     height: 90px;
     background-color: rgba(0, 0, 0, 0.3);
