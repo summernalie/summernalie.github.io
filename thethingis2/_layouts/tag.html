@@ -1,0 +1,53 @@
+---
+layout: default
+cover: 'assets/images/cover2.jpg'
+class: 'tag-template'
+navigation: True
+logo: 'assets/images/ghost.png'
+current: tag
+css:   '../../assets/css/landing.css'
+---
+
+<!-- < dynamically overriding backgrounds for tags as well as descriptions -->
+{% if page.url contains 'movies' %}
+    {% assign page.title='Movies' %}
+    {% assign new_cover='assets/img/cover-movies.png' %}
+    {% assign tag_description='Movie reviews and discussions' %}
+{% elsif page.url contains 'tv' %}
+    {% assign new_cover='assets/img/cover-tv.png' %}
+    {% assign tag_description='Television reviews and discussions' %}
+{% elsif page.url contains 'books' %}
+    {% assign new_cover='assets/img/cover-books.png' %}
+    {% assign tag_description='Book reviews and discussions' %}
+{% elsif page.url contains 'fiction' %}
+    {% assign new_cover='assets/img/cover-fiction.png' %}
+    {% assign tag_description='Original works of fiction' %}
+{% elsif page.url contains 'music' %}
+    {% assign new_cover='assets/img/cover-music.png' %}
+    {% assign tag_description='Lyric breakdowns, covers, and discussions on Music' %}
+{% endif %}
+
+<!-- < default}} -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{% if new_cover %}{{ new_cover }}{% else %}{{ page.cover }}{% endif%}) {% else %}no-cover{% endif %}">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ page.tag | capitalize }}</h1>
+            <h2 class="page-description">
+            {% if tag_description %}
+                {{ tag_description }}
+            {% elsif page.tag %}
+			    A {{ paginator.total_posts }}-post collection
+            {% endif %}
+            </h2>
+        </div>
+</header>
+
+<!-- The main content area on the homepage -->
+<section class="tags" role="main">
+    <div class="container">
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+    {% include loop.html %}
+    </div>
+</section>

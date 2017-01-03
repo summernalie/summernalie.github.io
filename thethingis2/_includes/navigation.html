@@ -1,0 +1,27 @@
+<div class="navbar-fixed-top move-me" id="menu">
+    <a id="logo" href="{{ site.baseurl }}">
+        <img src="{{ site.url }}assets/img/logo.png" alt="The Thing Is" />
+    </a>
+    
+
+<nav class="">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-movies {% if page.url contains 'movies' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/movies">Movies</a></li>
+                    <li class="nav-tv {% if page.url contains 'tv' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/tv">TV</a></li>
+                    <li class="nav-books {% if page.url contains 'books' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/books">Books</a></li>
+                    <li class="nav-fiction {% if page.current == 'fiction' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}author/fiction">Fiction</a></li>
+                    <li class="nav-music {% if page.url contains 'music' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/music">Music</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
